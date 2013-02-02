@@ -1,0 +1,16 @@
+/* Body */
+body {
+  background-color: #e9e9e9;
+}
+
+/* Page container */
+div.page {
+  border: 1px solid #dfdfdf;
+  @include border-radius(7px);
+  @include box-shadow(0px 0px 6px 0px #c1c1c1);
+  background-color: #fff;
+  margin: 1em;
+  padding: 20px;
+}
+
+
