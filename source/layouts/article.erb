@@ -1,0 +1,100 @@
+<% content_for :onready do %>
+  function j() {
+    var r = $(this).parent().find(".share_links_wrapper");
+    var q = $(this).parent().find(".read-later_wrapper");
+    var t = $(this).parent().find(".permalink_wrapper");
+    if ($(this).find(".read-later_wrapper").length > 0) {
+      r.hide();
+      t.hide();
+      q.show();
+    }
+    
+    if ($(this).find(".permalink_wrapper").length > 0) {
+      r.hide();
+      q.hide();
+      t.show();
+      t.find("input").focus();
+    }
+      
+    if ($(this).find(".share_links_wrapper").length > 0) {
+      q.hide();
+      t.hide();
+      r.show();
+    }
+  }
+
+  function h() {
+    $(this).find(".share_links_wrapper").hide();
+    $(this).find(".read-later_wrapper").hide();
+    $(this).find(".permalink_wrapper").hide();
+  }
+  
+  $("li.share, li.permalink, li.read-later").hoverIntent({
+    sensitivity: 1,
+    interval: 0,
+    over: j,
+    timeout: 100,
+    out: h
+  });
+    
+<% end %>
+<% wrap_layout :layout do 
+  article_url = "http://mattolson.com#{current_article.url}"
+%>
+  <div class="row">
+    <article class="nine columns">
+      <h3><%= current_article.title %></h3>
+      <%= yield %>
+    </article>
+    <aside class="three columns">
+      <ul class="credit">
+        <li class="time">Posted on <time datetime="<%= current_article.date.strftime('%Y-%m-%d') %>"><%= current_article.date.strftime('%b %e, %Y') %></time</li>
+      </ul>
+      <ul class="tags">
+        <% current_article.tags.each do |tag| %>
+          <li><%= link_to tag, tag_path(tag), :class => 'tiny button secondary round' %></li>
+        <% end %>
+      </ul>
+      <ul class="meta">
+        <!--<li class="comments"><a href="http://penman.stylehatch.co/post/14366132330/introducing-penman#disqus_thread" class="dsq-comment-count">&nbsp;</a></li>-->
+        <li class="read-later"><a href="#" class="button secondary tiny radius">Read Later</a>
+          <div class="read-later_wrapper">
+            <div class="share_links">
+              <div>
+                <p><i>Save to</i></p>
+                <ul class="clearfix">
+                  <li><a href="http://www.instapaper.com/hello2?url=<%= article_url %>">Instapaper</a></li>
+                  <li><a href="https://readitlaterlist.com/save?url=<%= article_url %>">Read it Later</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="share"><a href="#" class="button secondary tiny radius">Share</a>
+          <div class="share_links_wrapper">
+            <div class="share_links">    
+              <div class="share-buttons" data-permalink="<%= article_url %>">
+                <div class="share-button share-twitter">
+                  <a href="https://twitter.com/share" class="twitter-share-button" data-url="<%= article_url %>" data-count="horizontal"></a> 
+                </div>
+                <div class="share-button share-facebook">
+                  <iframe src="http://www.facebook.com/plugins/like.php?href=<%= article_url %>&amp;send=false&amp;layout=button_count&amp;width=90&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe>
+                </div>
+                <div class="share-button share-gplus">
+                  <div class="g-plusone" data-annotation="inline" data-size="medium" data-width="120"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="permalink"><a href="<%= article_url %>" class="button secondary tiny radius">&infin;</a>
+          <div class="permalink_wrapper">
+            <div class="share_links">
+              <div><input type="text" value="<%= article_url %>" class="short_url_text" readonly=""></div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </aside>
+  </div>
+<% end %>

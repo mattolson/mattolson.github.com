@@ -64,13 +64,173 @@ header.hero {
   a:hover { color: $highlightColor; }
 }
 
+/* Footer */
+footer {
+  p {
+    font-size: 0.8em;
+  }
+}
+
 /* Blog articles */
 article {
-  time {
-    font-family: $serifFonts;
-    float:right;
-  }
-  h2 {
+  h3 {
+    text-transform: uppercase;
     margin-top: 0;
   }
 }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Meta
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+aside {
+  padding: 40px 0 0;
+  li { 
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans serif;
+    color:#747474;
+  }
+}
+aside ul {
+  list-style: none;
+}
+
+aside ul.credit{
+  margin-top: 0px;
+}
+
+aside ul.credit time {
+  display: block;
+}
+
+aside ul.tags li {
+  display: inline;
+}
+
+aside ul.tags li:after {
+  content:",";
+}
+
+aside ul.tags li:last-child:after {
+  content:"";
+}
+
+.share-btns {
+  margin: 0;
+  float: left;
+}
+
+.read-later, .share, .permalink {
+  display: block;
+  position: relative;
+  float: left;
+  margin: 10px 5px 0px 0px;
+}
+
+.share_links_wrapper, .permalink_wrapper, .read-later_wrapper {
+  display: none;
+  position: absolute;
+  top: 3px;
+  right: 0;
+  z-index: 100;
+}
+
+.share_links {
+  position: absolute;
+  z-index: 100;
+}
+
+.share_links_wrapper .share_links {
+  height: 103px;
+  width: 196px;
+  background:transparent url('/images/like-bg.png') 0 0 no-repeat;
+  top: 23px;
+  left: -150px;
+}
+
+.permalink_wrapper .share_links {
+  height: 76px;
+  width: 181px;
+  background:transparent url('/images/share-bg.png') 0 0 no-repeat;
+  top: 20px;
+  left: -171px;
+}
+
+.share_links input {
+  margin: 20px 10px;
+  width: 170px;
+  height: 25px;
+  padding: 4px;
+  font-size: 12px;
+  position: absolute;
+  top:-3px;
+  left:-6px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.share_links a {
+  background-color: transparent !important;
+}
+
+.share_links .share-twitter {
+  position: absolute;
+  left: 21px;
+  top:20px;
+}
+
+.share_links .share-facebook {
+  position: absolute;
+  left: 106px;
+  top:20px;
+}
+
+.share_links .share-gplus {
+  position: absolute;
+  left: 21px;
+  top:55px;
+}
+
+.read-later_wrapper .share_links {
+  height: 76px;
+  width: 181px;
+  background:transparent url('/images/rl-bg.png') 0 0 no-repeat;
+  top:20px;
+  left: -90px;
+  color:#747474;
+}
+
+.read-later_wrapper .share_links div {
+  position: absolute;
+  top:8px;
+  left:12px;
+  p {
+    font-size: 12px;
+    text-align:center;
+    padding-top: 8px;
+    margin-bottom: 10px;
+  }
+}
+
+.read-later_wrapper .share_links ul {
+  margin:-10px auto;
+  padding:0;
+  list-style:none;
+}
+
+.read-later_wrapper .share_links ul li {
+  float:left;
+}
+
+.read-later_wrapper .share_links ul li:first-child:after{
+  content: "\2219";
+  /*  font-size:15px;*/
+  margin: 0 10px 0 10px;
+}
+
+.read-later_wrapper .share_links ul li a{
+  color:#d5391a;
+  font-weight:bold;
+}
+
