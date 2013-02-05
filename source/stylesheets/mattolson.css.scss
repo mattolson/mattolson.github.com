@@ -6,12 +6,11 @@ body {
 /* Links */
 a { 
   color: $txtColor;
-  border-bottom: 1px dotted $highlightColor;
+  border-bottom: 1px solid $highlightColor;
 }
 
 a:hover {
   color: $highlightColor;
-  border-bottom-style: solid;
   -webkit-transition: color 0.15s linear;
 }
 
@@ -72,6 +71,14 @@ footer {
 }
 
 /* Blog articles */
+div.articles {
+  hr {
+    margin: 2em 0 3em 0;
+    border-color: #e1e1e1;
+    border-style: dotted;
+  }
+}
+
 article {
   h3 {
     text-transform: uppercase;
@@ -83,7 +90,6 @@ article {
   Meta
      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 aside {
-  padding: 40px 0 0;
   li { 
     font-size: 12px;
     font-weight: bold;
@@ -105,14 +111,6 @@ aside ul.credit time {
 
 aside ul.tags li {
   display: inline;
-}
-
-aside ul.tags li:after {
-  content:",";
-}
-
-aside ul.tags li:last-child:after {
-  content:"";
 }
 
 .share-btns {

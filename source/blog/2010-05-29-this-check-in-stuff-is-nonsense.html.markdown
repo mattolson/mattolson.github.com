@@ -8,6 +8,7 @@ What are we, children?
 
 All these game mechanics built into the latest crop of location based services are dreamt up by a few people sitting around trying to figure out how 
 to manipulate us into giving them a constant data stream on our daily activities.
+READMORE
 
 From a user perspective, I resent the condescension inherent in the approach. And from a business perspective, I don&rsquo;t believe they are building 
 anything of real value, unless it&rsquo;s their intention to sell their users out to the highest bidder (which of course it is).
