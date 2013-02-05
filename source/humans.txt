@@ -6,6 +6,7 @@ Location: Chico, CA, USA
 
 /* THANKS */
 Middleman: http://middlemanapp.com
+Middleman ZURB Template: https://github.com/mattolson/middleman-zurb-template
 ZURB: http://www.zurb.com/
 Font Awesome: http://fortawesome.github.com/Font-Awesome
 FancyBox: http://fancybox.net/

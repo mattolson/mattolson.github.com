@@ -19,7 +19,9 @@
     <meta http-equiv="cleartype" content="on">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title><%= data.page.title || "My Blog" %></title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+
+    <title><%= data.page.title || "Lagom" %></title>
 
     <%= stylesheet_link_tag "application" %>
     <%= yield_content :stylesheets %>
@@ -39,58 +41,82 @@
   </head>
   <body>
 
-    <!-- Logo & Top Nav -->
-    <div class="row">
-      <div class="three columns">
-        <h1><%= link_to image_tag('http://placehold.it/250x75&text=My+Blog'), '/' %></h1>
+    <!-- Hero banner -->
+    <header class="hero">
+      <div class="row">
+        <div class="twelve columns">
+          <div class="intro_wrapper">
+            <div class="intro">
+              <h1>Lagom</h1>
+              <h4>The reflections of Matt Olson &mdash; <%= link_to 'systems thinker', 'http://en.wikipedia.org/wiki/Systems_thinking', :target => '_blank' %>, 
+                <%= link_to 'hacker', 'http://en.wikipedia.org/wiki/Hacker_(programmer_subculture)', :target => '_blank' %>, 
+                <%= link_to 'social entrepreneur', 'http://en.wikipedia.org/wiki/Social_entrepreneurship', :target => '_blank' %> &mdash; toward a retooling of consumer culture.</h4>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="nine columns">
-        <ul class="link-list right">
-        </ul>
+    </header>
+
+    <!-- Sticky nav -->
+    <div class="row">
+      <div class="contain-to-grid sticky">
+        <nav class="top-bar">
+          <ul>
+            <li class="name"><h1><%= link_to image_tag('profile-small.png'), '/about.html', :title => 'More about Matt' %></h1></li>
+            <li class="toggle-topbar"><a href="#"></a></li>
+          </ul>
+          <section>
+            <ul class="left">
+              <li><%= link_to 'Blog', '/' %></li>
+              <li><%= link_to 'Manifesto', '/' %></li>
+              <li><%= link_to 'Hacking', tag_path('hacking') %></li>
+              <li><%= link_to 'Systems', tag_path('systems') %></li>
+            </ul>
+            <ul class="right">
+              <li><%= link_to 'Contact', '/contact' %></li>
+              <li><%= link_to 'Archive', '/blog/calendar.html' %></li>
+              <li><%= link_to 'RSS', '/blog/feed.xml' %></li>
+            </ul>
+        </section>
+        </nav>
       </div>
     </div>
-    <!-- End Header and Nav -->
 
     <!-- Main page container -->
     <div class="row">
-      <div class="twelve columns">
-        <div class="eight columns">
-          <%= yield %>
-        </div>
-        <div class="four columns">
-          <aside>
-            <h3>Recent Articles</h3>
-            <ol>
-              <% blog.articles[0...10].each do |article| %>
-                <li><a href="<%= article.url %>"><%= article.title %></a> <span><%= article.date.strftime('%b %e') %></span></li>
-              <% end %>
-            </ol>
-
-            <h3>Tags</h3>
-            <ol>
-              <% blog.tags.each do |tag, articles| %>
-                <li><a href="<%= tag_path tag %>"><%= tag %> (<%= articles.size %>)</a></li>
-              <% end %>
-            </ol>
-
-            <h3>By Year</h3>
-            <ol>
-              <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
-                <li><a href="<%= blog_year_path year %>"><%= year %> (<%= articles.size %>)</a></li>
-              <% end %>
-            </ol>
-          </aside>
-        </div>
+      <div class="twelve columns page">
+        <%= yield %>
       </div>
     </div>
 
+<!--
+          <h3>Recent Articles</h3>
+          <ol>
+            <% blog.articles[0...10].each do |article| %>
+              <li><a href="<%= article.url %>"><%= article.title %></a> <span><%= article.date.strftime('%b %e') %></span></li>
+            <% end %>
+          </ol>
+
+          <h3>Tags</h3>
+          <ol>
+            <% blog.tags.each do |tag, articles| %>
+              <li><a href="<%= tag_path tag %>"><%= tag %> (<%= articles.size %>)</a></li>
+            <% end %>
+          </ol>
+
+          <h3>By Year</h3>
+          <ol>
+            <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+              <li><a href="<%= blog_year_path year %>"><%= year %> (<%= articles.size %>)</a></li>
+            <% end %>
+          </ol>
+        </aside>
+-->
+
     <!-- Footer -->
     <footer class="row">
-      <div class="six columns">
-        <p>&copy; Copyright <%= Date.today.year.to_s %> MySite</p>
-      </div>
-      <div class="six columns">
-        &nbsp;
+      <div class="twelve columns">
+        <p>&copy; Copyright <%= Date.today.year.to_s %> Matt Olson</p>
       </div>
     </footer>
 
@@ -146,6 +172,7 @@
     <script type="text/javascript">
       $(document).ready(function () {
         imgSizer.collate();
+        $("header.hero").backstretch("/images/hindelang.jpg");
         <%= yield_content :onready %>
       });
 

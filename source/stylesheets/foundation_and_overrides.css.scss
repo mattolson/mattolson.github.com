@@ -20,7 +20,7 @@ $alertColor: #a62d00;
 // $successColor: #5da423;
 $successColor: #00b25c;
 // $txtColor: #222;
-// $highlightColor: #ffff99;
+$highlightColor: #ffc400; // #61aacb;
 // $black: #000;
 // $white: #fff;
 // $shinyEdge: rgba(#fff, .5);
@@ -28,14 +28,15 @@ $successColor: #00b25c;
 
 // Font Settings
 
-// $headerFontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$headerFontFamily: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $headerFontWeight: bold;
 // $headerFontStyle: normal;
 // $headerFontColor: #222;
-// $bodyFontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$bodyFontFamily: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $bodyFontWeight: normal;
 // $bodyFontStyle: normal;
 // $bodyFontColor: $txtColor;
+$serifFonts: "Georgia", "Times New Roman", serif;
 
 // Text Direction Settings
 
@@ -97,23 +98,23 @@ $successColor: #00b25c;
 
 // Top Bar Settings
 
-// $topBarBgColor: #222;
-// $topBarHeight: 45px;
-// $topBarHeightMobile: 45px;
+$topBarBgColor: #f1f1f1; //#e5e2da;
+$topBarHeight: 60px;
+$topBarHeightMobile: 60px;
 // $topBarBtmMargin: 30px;
 // $topBarTitleWeight: bold;
 // $topBarTitleSize: 17px;
-// $topBarLinkColor: #fff;
+$topBarLinkColor: #333;
 // $topBarLinkWeight: bold;
-// $topBarLinkSize: 13px;
-// $topBarDropBgColor: #222;
-// $topBarDropLinkColor: #fff;
+$topBarLinkSize: 18px;
+$topBarDropBgColor: $topBarBgColor;
+$topBarDropLinkColor: $topBarLinkColor;
 // $topBarDropToggleSize: 5px;
-// $topBarDropToggleColor: #fff;
-// $topBarDropToggleAlpha: 0.5;
+$topBarDropToggleColor: #333;
+$topBarDropToggleAlpha: 1.0;
 // $topBarSearchWidth: 200px;
-// $topBarBreakPoint: 940px; // Change to 9999px for always mobile layout
-// $topBarNavToggleSize: 8px;
+$topBarBreakPoint: 700px; // Change to 9999px for always mobile layout
+$topBarNavToggleSize: 10px;
 
 // UI Settings
 
@@ -237,7 +238,7 @@ $successColor: #00b25c;
 // Modular Scale Settings
 
 // $ratio: $golden; // THIS IS DEFAULT IN MODULAR-SCALE
-// $baseFontSize: 14px;
+$baseFontSize: 16px;
 // $importantModNum: 44px;
 // $base-size: $baseFontSize $importantModNum;
 // Produced the following list of values: 14, 17, 23, 27, 37, 44, 59, 71, 95, 115;
