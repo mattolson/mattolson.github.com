@@ -6,7 +6,7 @@ tags:
 - chico
 - alcohol
 ---
-<img class="right" alt="image" height="224" src="https://mattolson-blog.s3.amazonaws.com/hello-chico.png" width="300"/>
+<img class="right plain" alt="image" height="224" src="https://mattolson-blog.s3.amazonaws.com/hello-chico.png" width="300"/>
 
 Mason Sumnicht, a pledge to Sigma Pi at Chico State, died on November 15th after a night of heavy drinking at local bars. He was celebrating his 21st birthday by drinking 21 shots with the help 
 of his fraternity brothers. His life ended with severe brain damage and 12 days of life support in the hospital. The tragedy of the loss of a young man with his whole life ahead of him cannot be 
@@ -105,4 +105,4 @@ help them establish long-term roots in Chico and grow our local economy.
 These are just a few ideas. We at the Synthesis hope to engage the community in depth on this issue over the course of the next few months, and facilitate an ongoing conversation that will hopefully 
 remain constructive and focused on achievable change. Please contact us with any insights or ideas you have on this very important topic.
 
-_This essay was printed in the January 21, 2013 issue of [The Synthesis](http://synthesisweekly.com/)._
+_This essay was printed in the January 21, 2013 issue of [The Synthesis](http://synthesisweekly.com/hello-my-name-is-chico-and-i-have-a-drinking-problem/)._

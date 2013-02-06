@@ -69,8 +69,7 @@
             <ul class="left">
               <li><%= link_to 'Blog', '/' %></li>
               <li><%= link_to 'Manifesto', '/manifesto.html' %></li>
-              <li><%= link_to 'Hacking', tag_path('hacking') %></li>
-              <li><%= link_to 'Systems', tag_path('systems') %></li>
+              <li><%= link_to 'About', '/about.html' %></li>
             </ul>
             <ul class="right">
               <li><%= link_to 'Contact', '/contact.html' %></li>
@@ -116,7 +115,10 @@
     <!-- Footer -->
     <footer class="row">
       <div class="twelve columns">
-        <p>&copy; Copyright <%= Date.today.year.to_s %> Matt Olson</p>
+        <p>
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/80x15.png" /></a>
+          &copy; Copyright <%= Date.today.year.to_s %> Matt Olson
+        </p>
       </div>
     </footer>
 

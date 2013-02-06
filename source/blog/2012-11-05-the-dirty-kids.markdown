@@ -6,6 +6,8 @@ tags:
 - chico
 - homeless
 ---
+<img class="right" alt="image" height="250" src="https://mattolson-blog.s3.amazonaws.com/homeless.jpg" width="250"/>
+
 The increasing size of the homeless population downtown has become a hot button political issue for Chico, and one that divides the candidates for the City Council election tomorrow. At the League of Women 
 Voters forum on October 15th, I saw two very distinct points of view represented.
 
@@ -25,7 +27,7 @@ is going to take a well thought-out approach.&rdquo;
 The consensus among the conservatives running for City Council seems to be that the presence of homeless people downtown hurts business traffic so we need new laws to criminalize their unwanted behavior. 
 The consensus among the liberals seems to be that this is a complicated problem that cannot be legislated away, but requires a collaborative, multi-dimensional effort to get at the root problems.
 
-I felt that what was missing from the debate was any indication that any of these candidates (with the exception of Tami Ritter, the founding director of the Torres Shelter) has spent any time in contact 
+I felt that what was missing from the debate was any indication that any of these candidates (with the exception of Tami Ritter, the founding director of the [Torres Shelter](http://www.chicoshelter.org/)) has spent any time in contact 
 with the subject of their speculation. How can a politician make such an important decision regarding an already marginalized segment of our community without having talked to them? Just as importantly, 
 how can I, as a citizen, know who to support unless I put my own assumptions to the test? So, over several days, I spent time talking with homeless persons in downtown Chico in an effort to understand this 
 misunderstood and marginalized part of our community.
@@ -74,7 +76,7 @@ there overnight, waking up &ldquo;showered with $1 bills. They were everywhere, 
 to come down here and give people jobs, make new jobs.&rdquo;
 
 John has been on the streets of Chico for 28 years. His face is weathered, and he has a speech condition that make it difficult for him to speak clearly. He is a survivor of a case of colon cancer that required a 
-permanent colostomy. His meager possessions are found beside him in a utility cart topped by a sign saying &ldquo;canser [sic] survivor, disabled, need help&rdquo;. Spend one minute with John and you&rsquo;ll 
+permanent colostomy. His meager possessions are found beside him in a utility cart topped by a sign saying &ldquo;canser (sic) survivor, disabled, need help&rdquo;. Spend one minute with John and you&rsquo;ll 
 realize he&rsquo;s the real deal: a disabled man with a crippling medical condition and no resources. He has no bank account. He&rsquo;s on the street asking for compassion and help. Most of the time, he is 
 ignored by passersby that find his presence to be an uncomfortable reminder of the underlying cruelty of nature. The rest of the time, he settles for pity and a few dollars or some leftovers. When asked what 
 he thinks of the proposal by conservative candidates for city council to enact anti-panhandling and anti-vagrancy ordinances, he offers a cogent rebuttal: &ldquo;They need to live for a year on the street with 
@@ -91,4 +93,4 @@ The criminalization of sitting on the sidewalk, asking for help, or sleeping in 
 community, not just law enforcement, in the solution. If we take the easy way out just because we don&rsquo;t like the dirty kids, we&rsquo;ll make life impossible for people like John or Bob that are in legitimate 
 need and rely on our compassion for their survival. Passing a law to sweep people out of sight so our skills of compassion atrophy even further is no solution at all.
 
-_This essay was printed in the November 5, 2012 issue of [The Synthesis](http://synthesisweekly.com/)._
+_This essay was printed in the November 5, 2012 issue of [The Synthesis](http://synthesisweekly.com/love-em-or-make-em-leave/)._

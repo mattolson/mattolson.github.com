@@ -1,11 +1,12 @@
 ---
 title: What is that loud sucking sound?
-date: 2012-09-24 12:58 -08:00
+date: 2012-10-01 12:58 -08:00
 tags:
 - synthesis
 - tech
-read-next: 
 ---
+<img class="right" alt="image" height="250" src="https://mattolson-blog.s3.amazonaws.com/dirty-cloud.jpg" width="250"/>
+
 _The New York Times_ just ran a [series on the destructive impact of cloud computing](http://www.nytimes.com/2012/09/23/technology/data-centers-waste-vast-amounts-of-energy-belying-industry-image.html). 
 In it, they publish their findings on the energy consumption and environmental impact of the datacenters that work behind the scenes to power our favorite web and mobile apps, store our data with full 
 redundancy and fault tolerance in perpetuity, and deliver our electronic communications. READMORE Another way to phrase that: the datacenters that allow us to kill time stalking people on Facebook or playing 
@@ -32,4 +33,4 @@ Do you leave your lights on around the house when you&rsquo;re not using them?
 When it comes to powering servers, it doesn&rsquo;t matter if that bit represents a cat video, porn, your Facebook photos, or important medical research data. Even free apps aren&rsquo;t really free. 
 Somewhere out there in the &ldquo;cloud&rdquo;, there are thousands and thousands of servers humming away, making a loud sucking sound, draining the nation&rsquo;s energy supply.
 
-_This essay was printed in the October 1, 2012 issue of [The Synthesis](http://synthesisweekly.com/)._
+_This essay was printed in the October 1, 2012 issue of [The Synthesis](http://synthesisweekly.com/the-dirty-cloud/)._

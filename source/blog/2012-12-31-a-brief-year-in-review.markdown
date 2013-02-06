@@ -29,7 +29,7 @@ Computer Science, and get kids hacking again. A vibrant, loyal community has for
 This technology has been around for years, but 2012 is a turning point in refinement and accessibility. [Makerbot](http://www.makerbot.com/), a Brooklyn company, has released the 
 [Replicator 2](https://store.makerbot.com/replicator2.html), a turnkey desktop 3D printer that uses biodegradable plastic for its source material. It has a resolution of 0.1mm and is able to 
 produce high-fidelity models of virtually anything you can imagine. It&rsquo;s almost like the first step toward the _Star Trek_ replicator, except everything comes out plastic. Hey, you have to 
-start somewhere&elips; It costs around $2,000, bringing this device to a much broader audience than ever before.
+start somewhere&hellip; It costs around $2,000, bringing this device to a much broader audience than ever before.
 
 In a move that will truly make 3D printing mainstream, the office supply company [Staples has announced that it will begin offering 3D printing services](http://blog.makezine.com/2012/12/03/staples-rolling-out-pilot-3d-printing-service/)
 at its stores. They will be using a high-end device by MCOR that uses paper as its source material, with about the same resolution as the Makerbot Replicator. It may sound odd to use paper, but the 
