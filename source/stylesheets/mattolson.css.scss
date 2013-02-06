@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-a.fc-webicon {
+a.fc-webicon, ul.breadcrumbs li a {
   border: none;
 }
 
@@ -115,6 +115,14 @@ img.right {
     border: none;
     @include box-shadow(#fff 0 0 0);
   }
+}
+
+/* Banner */
+div.banner {
+  background-color: #e5e2da;
+  padding: 0.2em;
+  text-align: center;
+  margin-bottom: 1em;
 }
 
 /* Blog articles */

@@ -23,7 +23,7 @@
     <link rel="alternate" type="application/atom+xml" href="http://mattolson.com/blog/feed.xml" title="Atom feed for mattolson.com"/>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
 
-    <title><%= data.page.title || "Demand Less" %></title>
+    <title><%= data.page.title || "Capital Ideas" %></title>
 
     <%= stylesheet_link_tag "application" %>
     <%= yield_content :stylesheets %>
@@ -49,10 +49,12 @@
         <div class="twelve columns">
           <div class="intro_wrapper">
             <div class="intro">
-              <h1>Enough</h1>
-              <h4>The thoughts of Matt Olson, a <%= link_to 'systems thinker', 'http://en.wikipedia.org/wiki/Systems_thinking', :target => '_blank' %>, 
+              <h1>Capital Ideas</h1>
+              <h4>
+                The thoughts of Matt Olson, a <%= link_to 'systems thinker', 'http://en.wikipedia.org/wiki/Systems_thinking', :target => '_blank' %>, 
                 <%= link_to 'hacker', 'http://en.wikipedia.org/wiki/Hacker_(programmer_subculture)', :target => '_blank' %> and
-                <%= link_to 'social entrepreneur', 'http://en.wikipedia.org/wiki/Social_entrepreneurship', :target => '_blank' %>, on retooling consumer culture</h4>
+                <%= link_to 'social entrepreneur', 'http://en.wikipedia.org/wiki/Social_entrepreneurship', :target => '_blank' %>, on retooling consumer culture
+              </h4>
             </div>
           </div>
         </div>
@@ -72,9 +74,11 @@
               <li><%= link_to 'About Me', '/about.html' %></li>
             </ul>
             <ul class="right">
+              <!--
               <li><%= link_to 'Contact', '/contact.html' %></li>
               <li><%= link_to 'Archive', '/blog/archive.html' %></li>
-              <li><%= link_to 'RSS', '/blog/feed.xml' %></li>
+              -->
+              <li><%= link_to 'Atom Feed', '/blog/feed.xml' %></li>
             </ul>
         </section>
         </nav>
