@@ -117,14 +117,6 @@ img.right {
   }
 }
 
-/* Banner */
-div.banner {
-  background-color: #e5e2da;
-  padding: 0.2em;
-  text-align: center;
-  margin-bottom: 1em;
-}
-
 /* Blog articles */
 div.articles {
   hr {
@@ -306,3 +298,20 @@ aside ul.tags li {
   font-weight:bold;
 }
 
+@media only screen and (max-width: $screenSmall - 1) {
+  aside.columns {
+    margin-top: 1em;
+    border-top: 1px solid #e1e1e1;
+    padding-top: 1em;
+    ul.meta {
+      clear: left;
+      padding-top: 1em;
+    }
+    ul.tags li {
+      float: left;
+      display: inline;
+      margin-top: 0.5em;
+      margin-right: 0.5em;
+    }
+  }
+}
