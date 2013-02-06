@@ -28,15 +28,14 @@ $highlightColor: #ffc400; // #61aacb;
 
 // Font Settings
 
-$headerFontFamily: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$headerFontFamily: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 // $headerFontWeight: bold;
 // $headerFontStyle: normal;
 // $headerFontColor: #222;
-$bodyFontFamily: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$bodyFontFamily: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 // $bodyFontWeight: normal;
 // $bodyFontStyle: normal;
 // $bodyFontColor: $txtColor;
-$serifFonts: "Georgia", "Times New Roman", serif;
 
 // Text Direction Settings
 
@@ -113,7 +112,7 @@ $topBarDropLinkColor: $topBarLinkColor;
 $topBarDropToggleColor: #333;
 $topBarDropToggleAlpha: 1.0;
 // $topBarSearchWidth: 200px;
-$topBarBreakPoint: 700px; // Change to 9999px for always mobile layout
+$topBarBreakPoint: 730px; // Change to 9999px for always mobile layout
 $topBarNavToggleSize: 10px;
 
 // UI Settings

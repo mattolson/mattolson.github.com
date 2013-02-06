@@ -4,6 +4,7 @@ date: 2012-09-24 12:58 -08:00
 tags:
 - synthesis
 - tech
+read-next: 
 ---
 _The New York Times_ just ran a [series on the destructive impact of cloud computing](http://www.nytimes.com/2012/09/23/technology/data-centers-waste-vast-amounts-of-energy-belying-industry-image.html). 
 In it, they publish their findings on the energy consumption and environmental impact of the datacenters that work behind the scenes to power our favorite web and mobile apps, store our data with full 
