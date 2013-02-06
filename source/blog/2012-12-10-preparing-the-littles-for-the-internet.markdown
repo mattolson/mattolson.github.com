@@ -3,7 +3,8 @@ date: 2012-12-10 17:56 -08:00
 title: Preparing The Littles For The Internet
 tags:
 - synthesis
-- tech
+- hacking
+- hardware
 - kids
 ---
 <img class="right" alt="image" height="250" src="https://mattolson-blog.s3.amazonaws.com/nabi.png" width="250"/>

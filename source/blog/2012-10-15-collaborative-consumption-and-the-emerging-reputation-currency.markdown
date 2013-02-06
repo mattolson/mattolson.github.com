@@ -3,7 +3,8 @@ date: 2012-10-15 17:56 -08:00
 title: Collaborative Consumption and the Emerging Reputation Currency
 tags:
 - synthesis
-- tech
+- startups
+- hacking
 - collaborative consumption
 ---
 <img class="right" alt="image" height="247" src="https://mattolson-blog.s3.amazonaws.com/collaborative-consumption.jpg" width="250"/>

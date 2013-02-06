@@ -4,7 +4,6 @@ title: The Dirty Kids
 tags:
 - synthesis
 - chico
-- homeless
 ---
 <img class="right" alt="image" height="250" src="https://mattolson-blog.s3.amazonaws.com/homeless.jpg" width="250"/>
 

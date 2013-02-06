@@ -3,7 +3,7 @@ date: 2012-11-26 17:56 -08:00
 title: Kids Can Hack, Too
 tags:
 - synthesis
-- tech
+- hacking
 - kids
 ---
 <img class="right" alt="image" height="288" src="https://mattolson-blog.s3.amazonaws.com/mindstorms.png" width="250"/>

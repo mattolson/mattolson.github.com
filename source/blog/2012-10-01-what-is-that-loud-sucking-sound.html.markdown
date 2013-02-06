@@ -3,7 +3,9 @@ title: What is that loud sucking sound?
 date: 2012-10-01 12:58 -08:00
 tags:
 - synthesis
-- tech
+- hacking
+- cloud
+- environment
 ---
 <img class="right" alt="image" height="250" src="https://mattolson-blog.s3.amazonaws.com/dirty-cloud.jpg" width="250"/>
 

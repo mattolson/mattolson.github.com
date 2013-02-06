@@ -4,7 +4,6 @@ title: Hello, My Name is Chico, And I Have A Drinking Problem
 tags:
 - synthesis
 - chico
-- alcohol
 ---
 <img class="right plain" alt="image" height="224" src="https://mattolson-blog.s3.amazonaws.com/hello-chico.png" width="300"/>
 

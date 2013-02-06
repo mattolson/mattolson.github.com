@@ -3,7 +3,9 @@ date: 2012-12-31 17:56 -08:00
 title: A Brief Year In Review
 tags:
 - synthesis
-- tech
+- hacking
+- hardware
+- politics
 ---
 ##### Open Source Hardware On The Rise
 
