@@ -12,13 +12,13 @@
 
 // Colors Settings
 
-// $mainColor: #2ba6cb;
+$mainColor: #6498cc;
 // $secondaryColor: #e9e9e9;
 $secondaryColor: #fff;
 // $alertColor: #c60f13;
 $alertColor: #a62d00;
 // $successColor: #5da423;
-$successColor: #00b25c;
+$successColor: #85a62b;
 // $txtColor: #222;
 $highlightColor: #ffc400; // #61aacb;
 // $black: #000;
@@ -109,10 +109,11 @@ $topBarLinkSize: 18px;
 $topBarDropBgColor: $topBarBgColor;
 $topBarDropLinkColor: $topBarLinkColor;
 // $topBarDropToggleSize: 5px;
-$topBarDropToggleColor: #333;
+$topBarDropToggleColor: $topBarBgColor;
 $topBarDropToggleAlpha: 1.0;
 // $topBarSearchWidth: 200px;
-$topBarBreakPoint: 300px; // Change to 9999px for always mobile layout
+$topBarBreakPoint: 400px; // Change to 9999px for always mobile layout
+$topBarNavToggleColor: darken($topBarBgColor,40%);
 $topBarNavToggleSize: 10px;
 
 // UI Settings
@@ -243,4 +244,8 @@ $baseFontSize: 16px;
 // Produced the following list of values: 14, 17, 23, 27, 37, 44, 59, 71, 95, 115;
 // http://www.modularscale.com by Tim Brown
 // https://github.com/scottkellum/modular-scale by scottkellum
+
+// Add extra breakpoint for iPhone
+$screenXsmall: 480px !default;
+
 @import 'foundation';

@@ -74,8 +74,8 @@
               <li><%= link_to 'About Me', '/about.html' %></li>
             </ul>
             <ul class="right">
-              <!--
               <li><%= link_to 'Contact', '/contact.html' %></li>
+              <!--
               <li><%= link_to 'Archive', '/blog/archive.html' %></li>
               -->
               <li><%= link_to 'Atom Feed', '/blog/feed.xml' %></li>
@@ -91,30 +91,6 @@
         <%= yield %>
       </div>
     </div>
-
-<!--
-          <h3>Recent Articles</h3>
-          <ol>
-            <% blog.articles[0...10].each do |article| %>
-              <li><a href="<%= article.url %>"><%= article.title %></a> <span><%= article.date.strftime('%b %e') %></span></li>
-            <% end %>
-          </ol>
-
-          <h3>Tags</h3>
-          <ol>
-            <% blog.tags.each do |tag, articles| %>
-              <li><a href="<%= tag_path tag %>"><%= tag %> (<%= articles.size %>)</a></li>
-            <% end %>
-          </ol>
-
-          <h3>By Year</h3>
-          <ol>
-            <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
-              <li><a href="<%= blog_year_path year %>"><%= year %> (<%= articles.size %>)</a></li>
-            <% end %>
-          </ol>
-        </aside>
--->
 
     <!-- Footer -->
     <footer class="row">
