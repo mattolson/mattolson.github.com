@@ -36,6 +36,11 @@
     timeout: 100,
     out: h
   });
+
+  $("li.share a.button.tiny, li.permalink a.button.tiny, li.read-later a.button.tiny").on('click', function(e) {
+    j();
+    e.preventDefault();
+  });
 <% end %>
 
 <% article_url = "http://mattolson.com#{article.url}" %>
