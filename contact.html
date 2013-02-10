@@ -84,23 +84,32 @@
     <!-- Main page container -->
     <div class="row">
       <div class="twelve columns page">
-        <h1>Archive for
-  
-    Jan 21 2013
-  
-</h1>
+        
+<div class="row">
+  <div class="nine columns">
+    <p>I'd love to hear from you, don't be shy!</p>
+    <div class="alert-box success" style="display:none;">Thank you for reaching out. I will be in touch as soon as possible. <a href="" class="close">&times;</a></div>
+    <iframe name="google_form" id="google_form" src="" style="display:none" width="0" height="0">Loading...</iframe>
+    <form id="contact_form" target="google_form" action="https://docs.google.com/a/mattolson.com/forms/d/10BEnn-f4WmHrPgMDlEQBZi6PMPifoFU_pMSgO-ok4Aw/formResponse?embedded=true" method="POST" class="nice">
+      <input type="hidden" name="draftResponse" value="[]" />
+      <input type="hidden" name="pageHistory" value="0" />
 
-  <p>Page 1 of 1</p>
+      <label for="contact_name">Your Name</label>
+      <input type="text" class="input-text required" id="contact_name" name="entry.1052854003" />
 
-  
+      <label for="contact_email">Your Email Address</label>
+      <input type="text" class="input-text required" id="contact_email" name="entry.1019827916" />
 
-<ul>
-  
-    <li><a href="/blog/2013/01/21/hello-my-name-is-chico-and-i-have-a-drinking-problem.html">Hello, My Name is Chico, And I Have A Drinking Problem</a> <span>Jan 21</span></li>
-  
-</ul>
+      <label for="message_subject">Subject</label>
+      <input type="text" class="input-text" id="message_subject" name="entry.619695552" />
 
-  
+      <label for="message_body">Message</label>
+      <textarea class="input-text required" id="message_body" name="entry.662893370" rows="6"></textarea>
+
+      <input type="submit" value="Send Message" class="button radius" />
+    </form>
+  </div>
+</div>
 
       </div>
     </div>
@@ -166,13 +175,27 @@
 
     <!-- Other javascript -->
     <script src="/javascripts/application.js" type="text/javascript"></script>
-    
+      <script src="/javascripts/jquery.validate.js" type="text/javascript"></script>
+
 
     <script type="text/javascript">
       $(document).ready(function () {
         imgSizer.collate();
         $("header.hero").backstretch("/images/hindelang.jpg");
-        
+          $('#contact_name').focus();
+
+  // validate and submit the form
+  $('#contact_form').validate({
+    submitHandler: function(form) {
+      // Attach onload to iframe for user feedback
+      $('#google_form').on('load', function() {
+        $('div.alert-box.success').fadeIn('slow');
+        form.reset();
+      });
+      form.submit();
+    }
+  });
+
       });
 
       var _gaq=[['_setAccount','UA-'],['_trackPageview']];
