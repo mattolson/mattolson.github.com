@@ -91,7 +91,7 @@
                 <p><i>Save to</i></p>
                 <ul class="clearfix">
                   <li><a href="http://www.instapaper.com/hello2?url=<%= article_url %>">Instapaper</a></li>
-                  <li><a href="https://readitlaterlist.com/save?url=<%= article_url %>">Read it Later</a></li>
+                  <li><a href="https://readitlaterlist.com/save?url=<%= article_url %>&title=<%= article.title %>">Pocket</a></li>
                 </ul>
               </div>
             </div>
@@ -117,7 +117,7 @@
         <li class="permalink"><a href="<%= article_url %>" class="button secondary tiny radius">&infin;</a>
           <div class="permalink_wrapper">
             <div class="share_links">
-              <div><input type="text" value="<%= article_url %>" class="short_url_text" readonly=""></div>
+              <div><input type="text" value="<%= article_url %>" class="short_url_text"></div>
             </div>
           </div>
         </li>
