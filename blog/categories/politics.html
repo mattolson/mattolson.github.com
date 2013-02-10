@@ -67,14 +67,14 @@
           <section>
             <ul class="left">
               <li><a href="/">Home</a></li>
-              <li><a href="/about.html">About Me</a></li>
+              <li><a href="/about.html">About</a></li>
             </ul>
             <ul class="right">
               <li><a href="/contact.html">Contact</a></li>
               <!--
               <li><a href="/blog/archive.html">Archive</a></li>
               -->
-              <li><a href="/blog/feed.xml">Atom Feed</a></li>
+              <li><a href="/blog/feed.xml">Subscribe</a></li>
             </ul>
         </section>
         </nav>
@@ -242,6 +242,11 @@
     over: j,
     timeout: 100,
     out: h
+  });
+
+  $("li.share a.button.tiny, li.permalink a.button.tiny, li.read-later a.button.tiny").on('click', function(e) {
+    j();
+    e.preventDefault();
   });
 
       });
