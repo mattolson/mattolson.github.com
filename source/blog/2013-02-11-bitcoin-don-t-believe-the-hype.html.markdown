@@ -4,7 +4,7 @@ date: 2013-02-11 11:13 -08:00
 mainurl: http://synthesisweekly.com/bitcoin-dont-believe-the-hype/
 tags:
  - synthesis
- - tech
+ - hacking
  - currency
  - bitcoin
 ---
