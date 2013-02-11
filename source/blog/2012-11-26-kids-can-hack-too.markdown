@@ -1,6 +1,7 @@
 ---
 date: 2012-11-26 17:56 -08:00
 title: Kids Can Hack, Too
+mainurl: http://synthesisweekly.com/
 tags:
 - synthesis
 - hacking
@@ -30,4 +31,3 @@ as you go. New lessons are contributed by a nascent open source community that h
 [Lego Mindstorms](http://mindstorms.lego.com/) is a robotics kit by Lego, also with roots in the MIT Media Lab. It comes with a programmable microcontroller, sensors, motors, and an easy-to-use programming toolkit to 
 build your own autonomous robots. I&rsquo;m pretty sure Santa has his eye on it this year. That, and a laser.
 
-_This essay was printed in the November 26, 2012 issue of [The Synthesis](http://synthesisweekly.com/)._

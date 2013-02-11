@@ -1,6 +1,7 @@
 ---
 date: 2012-10-15 17:56 -08:00
 title: Collaborative Consumption and the Emerging Reputation Currency
+mainurl: http://synthesisweekly.com/sharing-is-caring-collaborative-consumption-and-the-emerging-reputation-currency/
 tags:
 - synthesis
 - startups
@@ -47,4 +48,3 @@ Chico is full of creative, talented people with a wide variety of skills. Our co
 you&rsquo;re interested in this subject, or have ideas about how to further the sharing economy in Chico, or anywhere else for that matter, [send me an email](http://mattolson.com/contact)&mdash;I&rsquo;d 
 love to talk to you.
 
-_This essay was printed in the October 15, 2012 issue of [The Synthesis](http://synthesisweekly.com/sharing-is-caring-collaborative-consumption-and-the-emerging-reputation-currency/)._

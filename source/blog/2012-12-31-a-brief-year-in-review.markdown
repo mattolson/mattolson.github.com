@@ -1,6 +1,7 @@
 ---
 date: 2012-12-31 17:56 -08:00
 title: A Brief Year In Review
+mainurl: http://synthesisweekly.com/
 tags:
 - synthesis
 - hacking
@@ -57,4 +58,3 @@ about voters were cast aside&mdash;instead, the campaign responded to measuremen
 This methodology and the resulting learnings were applied not only to fundraising (to the tune of $1 billion), but also to voter turnout. They developed incredibly sophisticated models on who was most 
 likely to be persuaded, and who were most likely to persuade them, allowing them to focus their efforts in the right place. Big Data has entered the stage of presidential politics, and is here to stay.
 
-_This essay was printed in the December 31, 2012 issue of [The Synthesis](http://synthesisweekly.com/)._

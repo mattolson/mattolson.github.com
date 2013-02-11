@@ -1,44 +1,33 @@
 <% content_for :onready do %>
-  function j() {
-    var r = $(this).parent().find(".share_links_wrapper");
-    var q = $(this).parent().find(".read-later_wrapper");
-    var t = $(this).parent().find(".permalink_wrapper");
+  function on_over_sharing() {
+    var share_links = $(this).parent().find(".share_links_wrapper");
+    var read_later = $(this).parent().find(".read-later_wrapper");
     if ($(this).find(".read-later_wrapper").length > 0) {
-      r.hide();
-      t.hide();
-      q.show();
+      share_links.hide();
+      read_later.show();
     }
     
-    if ($(this).find(".permalink_wrapper").length > 0) {
-      r.hide();
-      q.hide();
-      t.show();
-      t.find("input").focus();
-    }
-      
     if ($(this).find(".share_links_wrapper").length > 0) {
-      q.hide();
-      t.hide();
-      r.show();
+      read_later.hide();
+      share_links.show();
     }
   }
 
-  function h() {
+  function on_out_sharing() {
     $(this).find(".share_links_wrapper").hide();
     $(this).find(".read-later_wrapper").hide();
-    $(this).find(".permalink_wrapper").hide();
   }
   
-  $("li.share, li.permalink, li.read-later").hoverIntent({
+  $("li.share, li.read-later").hoverIntent({
     sensitivity: 1,
     interval: 0,
-    over: j,
+    over: on_over_sharing,
     timeout: 100,
-    out: h
+    out: on_out_sharing
   });
 
-  $("li.share a.button.tiny, li.permalink a.button.tiny, li.read-later a.button.tiny").on('click', function(e) {
-    j();
+  $("li.share a.button.tiny, li.read-later a.button.tiny").on('click', function(e) {
+    on_over_sharing();
     e.preventDefault();
   });
 <% end %>
@@ -66,6 +55,13 @@
     <% end %>
 
     <% unless digest %>
+      <% if article.tags.include?('synthesis') %>
+        <p class="synthesis_comments panel radius">
+          This essay was printed in the <%= article.date.strftime('%b %e, %Y') %> issue of The Synthesis Weekly.
+          We&rsquo;d like to keep all public comments grouped together, so please 
+          <%= link_to 'visit the Synthesis site to comment on this essay', "#{article.data.mainurl}#comments", :target => '_blank' %>.
+        </p>
+      <% end %>
       <ul class="read_next">
         <li><%= article.previous_article ? link_to("&laquo; #{article.previous_article.title}", article.previous_article) : "&nbsp;" %></li>
         <li><%= article.next_article ? link_to("#{article.next_article.title} &raquo;", article.next_article) : "&nbsp;" %></li>
@@ -111,13 +107,6 @@
                   <div class="g-plusone" data-annotation="inline" data-size="medium" data-width="120"></div>
                 </div>
               </div>
-            </div>
-          </div>
-        </li>
-        <li class="permalink"><a href="<%= article_url %>" class="button secondary tiny radius">&infin;</a>
-          <div class="permalink_wrapper">
-            <div class="share_links">
-              <div><input type="text" value="<%= article_url %>" class="short_url_text"></div>
             </div>
           </div>
         </li>

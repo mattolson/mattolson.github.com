@@ -1,6 +1,7 @@
 ---
 date: 2012-12-10 17:56 -08:00
 title: Preparing The Littles For The Internet
+mainurl: http://synthesisweekly.com/preparing-the-littles-for-the-internet/
 tags:
 - synthesis
 - hacking
@@ -35,4 +36,3 @@ much about damage when the inevitable occurs. It runs for $199 at [Amazon](http:
 It&rsquo;s a relief to know that I&rsquo;m not the only one thinking about how best to balance access to technology with an age-appropriate, phased introduction. We&rsquo;ve got a couple of Nabis 
 on the way and I think this is exactly the tool we need to start the process.
 
-_This essay was printed in the December 10, 2012 issue of [The Synthesis](http://synthesisweekly.com/preparing-the-littles-for-the-internet/)._

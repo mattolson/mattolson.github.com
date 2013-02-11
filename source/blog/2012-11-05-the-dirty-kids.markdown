@@ -1,6 +1,7 @@
 ---
 date: 2012-11-05 17:56 -08:00
 title: The Dirty Kids
+mainurl: http://synthesisweekly.com/love-em-or-make-em-leave/
 tags:
 - synthesis
 - chico
@@ -92,4 +93,3 @@ The criminalization of sitting on the sidewalk, asking for help, or sleeping in 
 community, not just law enforcement, in the solution. If we take the easy way out just because we don&rsquo;t like the dirty kids, we&rsquo;ll make life impossible for people like John or Bob that are in legitimate 
 need and rely on our compassion for their survival. Passing a law to sweep people out of sight so our skills of compassion atrophy even further is no solution at all.
 
-_This essay was printed in the November 5, 2012 issue of [The Synthesis](http://synthesisweekly.com/love-em-or-make-em-leave/)._

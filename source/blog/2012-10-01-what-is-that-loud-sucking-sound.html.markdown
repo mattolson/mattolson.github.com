@@ -1,6 +1,7 @@
 ---
 title: What is that loud sucking sound?
 date: 2012-10-01 12:58 -08:00
+mainurl: http://synthesisweekly.com/the-dirty-cloud/
 tags:
 - synthesis
 - hacking
@@ -35,4 +36,3 @@ Do you leave your lights on around the house when you&rsquo;re not using them?
 When it comes to powering servers, it doesn&rsquo;t matter if that bit represents a cat video, porn, your Facebook photos, or important medical research data. Even free apps aren&rsquo;t really free. 
 Somewhere out there in the &ldquo;cloud&rdquo;, there are thousands and thousands of servers humming away, making a loud sucking sound, draining the nation&rsquo;s energy supply.
 
-_This essay was printed in the October 1, 2012 issue of [The Synthesis](http://synthesisweekly.com/the-dirty-cloud/)._

@@ -1,6 +1,7 @@
 ---
 date: 2013-01-21 17:56 -08:00
 title: Hello, My Name is Chico, And I Have A Drinking Problem
+mainurl: http://synthesisweekly.com/hello-my-name-is-chico-and-i-have-a-drinking-problem/
 tags:
 - synthesis
 - chico
@@ -104,4 +105,3 @@ help them establish long-term roots in Chico and grow our local economy.
 These are just a few ideas. We at the Synthesis hope to engage the community in depth on this issue over the course of the next few months, and facilitate an ongoing conversation that will hopefully 
 remain constructive and focused on achievable change. Please contact us with any insights or ideas you have on this very important topic.
 
-_This essay was printed in the January 21, 2013 issue of [The Synthesis](http://synthesisweekly.com/hello-my-name-is-chico-and-i-have-a-drinking-problem/)._
