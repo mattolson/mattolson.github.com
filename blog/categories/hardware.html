@@ -23,7 +23,7 @@
     <link rel="alternate" type="application/atom+xml" href="http://mattolson.com/blog/feed.xml" title="Atom feed for mattolson.com"/>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
 
-    <title>Preparing The Littles For The Internet</title>
+    <title>Preparing The Littles For The Internet&mdash;Captial Ideas</title>
 
     <link href="/stylesheets/application.css" media="screen" rel="stylesheet" type="text/css" />
     
@@ -252,88 +252,66 @@
       $(document).ready(function () {
         imgSizer.collate();
         $("header.hero").backstretch("/images/hindelang.jpg");
-          function j() {
-    var r = $(this).parent().find(".share_links_wrapper");
-    var q = $(this).parent().find(".read-later_wrapper");
-    var t = $(this).parent().find(".permalink_wrapper");
+          function on_over_sharing() {
+    var share_links = $(this).parent().find(".share_links_wrapper");
+    var read_later = $(this).parent().find(".read-later_wrapper");
     if ($(this).find(".read-later_wrapper").length > 0) {
-      r.hide();
-      t.hide();
-      q.show();
+      share_links.hide();
+      read_later.show();
     }
     
-    if ($(this).find(".permalink_wrapper").length > 0) {
-      r.hide();
-      q.hide();
-      t.show();
-      t.find("input").focus();
-    }
-      
     if ($(this).find(".share_links_wrapper").length > 0) {
-      q.hide();
-      t.hide();
-      r.show();
+      read_later.hide();
+      share_links.show();
     }
   }
 
-  function h() {
+  function on_out_sharing() {
     $(this).find(".share_links_wrapper").hide();
     $(this).find(".read-later_wrapper").hide();
-    $(this).find(".permalink_wrapper").hide();
   }
   
-  $("li.share, li.permalink, li.read-later").hoverIntent({
+  $("li.share, li.read-later").hoverIntent({
     sensitivity: 1,
     interval: 0,
-    over: j,
+    over: on_over_sharing,
     timeout: 100,
-    out: h
+    out: on_out_sharing
   });
 
-  $("li.share a.button.tiny, li.permalink a.button.tiny, li.read-later a.button.tiny").on('click', function(e) {
-    j();
+  $("li.share a.button.tiny, li.read-later a.button.tiny").on('click', function(e) {
+    on_over_sharing();
     e.preventDefault();
   });
-  function j() {
-    var r = $(this).parent().find(".share_links_wrapper");
-    var q = $(this).parent().find(".read-later_wrapper");
-    var t = $(this).parent().find(".permalink_wrapper");
+  function on_over_sharing() {
+    var share_links = $(this).parent().find(".share_links_wrapper");
+    var read_later = $(this).parent().find(".read-later_wrapper");
     if ($(this).find(".read-later_wrapper").length > 0) {
-      r.hide();
-      t.hide();
-      q.show();
+      share_links.hide();
+      read_later.show();
     }
     
-    if ($(this).find(".permalink_wrapper").length > 0) {
-      r.hide();
-      q.hide();
-      t.show();
-      t.find("input").focus();
-    }
-      
     if ($(this).find(".share_links_wrapper").length > 0) {
-      q.hide();
-      t.hide();
-      r.show();
+      read_later.hide();
+      share_links.show();
     }
   }
 
-  function h() {
+  function on_out_sharing() {
     $(this).find(".share_links_wrapper").hide();
     $(this).find(".read-later_wrapper").hide();
-    $(this).find(".permalink_wrapper").hide();
   }
   
-  $("li.share, li.permalink, li.read-later").hoverIntent({
+  $("li.share, li.read-later").hoverIntent({
     sensitivity: 1,
     interval: 0,
-    over: j,
+    over: on_over_sharing,
     timeout: 100,
-    out: h
+    out: on_out_sharing
   });
 
-  $("li.share a.button.tiny, li.permalink a.button.tiny, li.read-later a.button.tiny").on('click', function(e) {
-    j();
+  $("li.share a.button.tiny, li.read-later a.button.tiny").on('click', function(e) {
+    on_over_sharing();
     e.preventDefault();
   });
 

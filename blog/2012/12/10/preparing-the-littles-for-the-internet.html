@@ -24,7 +24,7 @@
     <link rel="alternate" type="application/atom+xml" href="http://mattolson.com/blog/feed.xml" title="Atom feed for mattolson.com"/>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
 
-    <title>Preparing The Littles For The Internet</title>
+    <title>Preparing The Littles For The Internet&mdash;Captial Ideas</title>
 
     <link href="/stylesheets/application.css" media="screen" rel="stylesheet" type="text/css" />
     
@@ -106,13 +106,18 @@
 <p>So I&#8217;m not about to give a six-year-old a computer, but there are an impressive number of kid-friendly options out there right now. The best that I&#8217;ve seen is an Android tablet designed for kids called the <a href='http://www.nabitablet.com'>Nabi 2</a>. It&#8217;s a powerful 7&#8221; tablet, similar in specs to the Nexus 7, but is has a customized operating system with two modes&#8212;parent mode and kid mode. Parents have full access to the latest Android OS, but kids have a simpler sandboxed interface, showing them only those apps approved by parents and a set of kid-friendly websites in a browser that doesn&#8217;t allow navigation off-site. It comes with a whole slew of prepackaged games and educational software, streaming music and age-appropriate TV. It doesn&#8217;t have access to Google Play, so app options are limited to Nabi&#8217;s built-in app store, which currently contains about 500 kid-friendly apps, and the Amazon Appstore which contains thousands more. It has a camera, which means the kids can take pictures and even Skype with their grandparents (or, more likely, each other from opposite ends of the house). And it comes with a robust protective bumper so you don&#8217;t have to worry so much about damage when the inevitable occurs. It runs for $199 at <a href='http://www.amazon.com/Fuhu-NABI-NABI2-NV7A-7-Inch-Tablet/dp/B008DBI5RI/ref=sr_1_1?ie=UTF8&amp;amp;qid=1355372519&amp;amp;sr=8-1'>Amazon</a> or <a href='http://www.nabitablet.com'>nabitablet.com</a>.</p>
 
 <p>It&#8217;s a relief to know that I&#8217;m not the only one thinking about how best to balance access to technology with an age-appropriate, phased introduction. We&#8217;ve got a couple of Nabis on the way and I think this is exactly the tool we need to start the process.</p>
-
-<p><em>This essay was printed in the December 10, 2012 issue of <a href='http://synthesisweekly.com/preparing-the-littles-for-the-internet/'>The Synthesis</a>.</em></p>
     
 
     
 
     
+      
+        <p class="synthesis_comments panel radius">
+          This essay was printed in the Dec 10, 2012 issue of The Synthesis Weekly.
+          We&rsquo;d like to keep all public comments grouped together, so please 
+          <a target="_blank" href="http://synthesisweekly.com/preparing-the-littles-for-the-internet/#comments">visit the Synthesis site to comment on this essay</a>.
+        </p>
+      
       <ul class="read_next">
         <li><a href="/blog/2012/11/26/kids-can-hack-too.html">&laquo; Kids Can Hack, Too</a></li>
         <li><a href="/blog/2012/12/31/a-brief-year-in-review.html">A Brief Year In Review &raquo;</a></li>
@@ -164,13 +169,6 @@
                   <div class="g-plusone" data-annotation="inline" data-size="medium" data-width="120"></div>
                 </div>
               </div>
-            </div>
-          </div>
-        </li>
-        <li class="permalink"><a href="http://mattolson.com/blog/2012/12/10/preparing-the-littles-for-the-internet.html" class="button secondary tiny radius">&infin;</a>
-          <div class="permalink_wrapper">
-            <div class="share_links">
-              <div><input type="text" value="http://mattolson.com/blog/2012/12/10/preparing-the-littles-for-the-internet.html" class="short_url_text"></div>
             </div>
           </div>
         </li>
@@ -287,46 +285,35 @@
     timeout: 100,
     out: h
   });
-  function j() {
-    var r = $(this).parent().find(".share_links_wrapper");
-    var q = $(this).parent().find(".read-later_wrapper");
-    var t = $(this).parent().find(".permalink_wrapper");
+  function on_over_sharing() {
+    var share_links = $(this).parent().find(".share_links_wrapper");
+    var read_later = $(this).parent().find(".read-later_wrapper");
     if ($(this).find(".read-later_wrapper").length > 0) {
-      r.hide();
-      t.hide();
-      q.show();
+      share_links.hide();
+      read_later.show();
     }
     
-    if ($(this).find(".permalink_wrapper").length > 0) {
-      r.hide();
-      q.hide();
-      t.show();
-      t.find("input").focus();
-    }
-      
     if ($(this).find(".share_links_wrapper").length > 0) {
-      q.hide();
-      t.hide();
-      r.show();
+      read_later.hide();
+      share_links.show();
     }
   }
 
-  function h() {
+  function on_out_sharing() {
     $(this).find(".share_links_wrapper").hide();
     $(this).find(".read-later_wrapper").hide();
-    $(this).find(".permalink_wrapper").hide();
   }
   
-  $("li.share, li.permalink, li.read-later").hoverIntent({
+  $("li.share, li.read-later").hoverIntent({
     sensitivity: 1,
     interval: 0,
-    over: j,
+    over: on_over_sharing,
     timeout: 100,
-    out: h
+    out: on_out_sharing
   });
 
-  $("li.share a.button.tiny, li.permalink a.button.tiny, li.read-later a.button.tiny").on('click', function(e) {
-    j();
+  $("li.share a.button.tiny, li.read-later a.button.tiny").on('click', function(e) {
+    on_over_sharing();
     e.preventDefault();
   });
 

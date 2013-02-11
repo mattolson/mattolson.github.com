@@ -24,7 +24,7 @@
     <link rel="alternate" type="application/atom+xml" href="http://mattolson.com/blog/feed.xml" title="Atom feed for mattolson.com"/>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
 
-    <title>A Brief Year In Review</title>
+    <title>A Brief Year In Review&mdash;Captial Ideas</title>
 
     <link href="/stylesheets/application.css" media="screen" rel="stylesheet" type="text/css" />
     
@@ -117,13 +117,18 @@
 <p>The first thing they did was launch project <a href='http://www.slate.com/articles/news_and_politics/victory_lab/2012/02/project_narwhal_how_a_top_secret_obama_campaign_program_could_change_the_2012_race_.html'>Narwhal</a>&#8212;the creation of a single, massive database that merged information collected from pollsters, fundraisers, consumer databases, and social media, with the Democratic voter files in swing states. The purpose of this database wasn&#8217;t simply to provide contact information to compile call lists, but to run a series of tests on the effectiveness of certain messages on particular demographics. Traditional assumptions about voters were cast aside&#8212;instead, the campaign responded to measurements in the same way a web startup would adjust its marketing based on split testing.</p>
 
 <p>This methodology and the resulting learnings were applied not only to fundraising (to the tune of $1 billion), but also to voter turnout. They developed incredibly sophisticated models on who was most likely to be persuaded, and who were most likely to persuade them, allowing them to focus their efforts in the right place. Big Data has entered the stage of presidential politics, and is here to stay.</p>
-
-<p><em>This essay was printed in the December 31, 2012 issue of <a href='http://synthesisweekly.com/'>The Synthesis</a>.</em></p>
     
 
     
 
     
+      
+        <p class="synthesis_comments panel radius">
+          This essay was printed in the Dec 31, 2012 issue of The Synthesis Weekly.
+          We&rsquo;d like to keep all public comments grouped together, so please 
+          <a target="_blank" href="http://synthesisweekly.com/#comments">visit the Synthesis site to comment on this essay</a>.
+        </p>
+      
       <ul class="read_next">
         <li><a href="/blog/2012/12/10/preparing-the-littles-for-the-internet.html">&laquo; Preparing The Littles For The Internet</a></li>
         <li><a href="/blog/2013/01/21/hello-my-name-is-chico-and-i-have-a-drinking-problem.html">Hello, My Name is Chico, And I Have A Drinking Problem &raquo;</a></li>
@@ -175,13 +180,6 @@
                   <div class="g-plusone" data-annotation="inline" data-size="medium" data-width="120"></div>
                 </div>
               </div>
-            </div>
-          </div>
-        </li>
-        <li class="permalink"><a href="http://mattolson.com/blog/2012/12/31/a-brief-year-in-review.html" class="button secondary tiny radius">&infin;</a>
-          <div class="permalink_wrapper">
-            <div class="share_links">
-              <div><input type="text" value="http://mattolson.com/blog/2012/12/31/a-brief-year-in-review.html" class="short_url_text"></div>
             </div>
           </div>
         </li>
@@ -298,46 +296,35 @@
     timeout: 100,
     out: h
   });
-  function j() {
-    var r = $(this).parent().find(".share_links_wrapper");
-    var q = $(this).parent().find(".read-later_wrapper");
-    var t = $(this).parent().find(".permalink_wrapper");
+  function on_over_sharing() {
+    var share_links = $(this).parent().find(".share_links_wrapper");
+    var read_later = $(this).parent().find(".read-later_wrapper");
     if ($(this).find(".read-later_wrapper").length > 0) {
-      r.hide();
-      t.hide();
-      q.show();
+      share_links.hide();
+      read_later.show();
     }
     
-    if ($(this).find(".permalink_wrapper").length > 0) {
-      r.hide();
-      q.hide();
-      t.show();
-      t.find("input").focus();
-    }
-      
     if ($(this).find(".share_links_wrapper").length > 0) {
-      q.hide();
-      t.hide();
-      r.show();
+      read_later.hide();
+      share_links.show();
     }
   }
 
-  function h() {
+  function on_out_sharing() {
     $(this).find(".share_links_wrapper").hide();
     $(this).find(".read-later_wrapper").hide();
-    $(this).find(".permalink_wrapper").hide();
   }
   
-  $("li.share, li.permalink, li.read-later").hoverIntent({
+  $("li.share, li.read-later").hoverIntent({
     sensitivity: 1,
     interval: 0,
-    over: j,
+    over: on_over_sharing,
     timeout: 100,
-    out: h
+    out: on_out_sharing
   });
 
-  $("li.share a.button.tiny, li.permalink a.button.tiny, li.read-later a.button.tiny").on('click', function(e) {
-    j();
+  $("li.share a.button.tiny, li.read-later a.button.tiny").on('click', function(e) {
+    on_over_sharing();
     e.preventDefault();
   });
 

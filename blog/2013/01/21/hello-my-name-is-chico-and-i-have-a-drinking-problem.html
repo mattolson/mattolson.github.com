@@ -24,7 +24,7 @@
     <link rel="alternate" type="application/atom+xml" href="http://mattolson.com/blog/feed.xml" title="Atom feed for mattolson.com"/>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
 
-    <title>Hello, My Name is Chico, And I Have A Drinking Problem</title>
+    <title>Hello, My Name is Chico, And I Have A Drinking Problem&mdash;Captial Ideas</title>
 
     <link href="/stylesheets/application.css" media="screen" rel="stylesheet" type="text/css" />
     
@@ -146,16 +146,21 @@
 <p>The economy is in pretty sore shape. We all recognize the need to revitalize and grow local business. We have a student population that for the most part comes here from other areas, parties hard, and leaves in four years, with very little long-term benefit accruing to the community. We ought to be able to pick the best and brightest among them and recruit them to stay here, start businesses, and help our community prosper. We can do this by creating an incubator for startups composed of the most talented and driven students, supplemented by experienced entrepreneurs from the community. For example, if we want to grow the web/mobile software sector in Chico, we incubate companies composed of Computer Science, Communication Design and Business students, with mentorship, support, or possibly leadership from those in the community with relevant industry experience. This would not only give students valuable experience starting a company while in college, but hopefully would help them establish long-term roots in Chico and grow our local economy.</p>
 
 <p>These are just a few ideas. We at the Synthesis hope to engage the community in depth on this issue over the course of the next few months, and facilitate an ongoing conversation that will hopefully remain constructive and focused on achievable change. Please contact us with any insights or ideas you have on this very important topic.</p>
-
-<p><em>This essay was printed in the January 21, 2013 issue of <a href='http://synthesisweekly.com/hello-my-name-is-chico-and-i-have-a-drinking-problem/'>The Synthesis</a>.</em></p>
     
 
     
 
     
+      
+        <p class="synthesis_comments panel radius">
+          This essay was printed in the Jan 21, 2013 issue of The Synthesis Weekly.
+          We&rsquo;d like to keep all public comments grouped together, so please 
+          <a target="_blank" href="http://synthesisweekly.com/hello-my-name-is-chico-and-i-have-a-drinking-problem/#comments">visit the Synthesis site to comment on this essay</a>.
+        </p>
+      
       <ul class="read_next">
         <li><a href="/blog/2012/12/31/a-brief-year-in-review.html">&laquo; A Brief Year In Review</a></li>
-        <li>&nbsp;</li>
+        <li><a href="/blog/2013/02/11/bitcoin-don-t-believe-the-hype.html">Bitcoin - Don't Believe The Hype &raquo;</a></li>
       </ul>
     
   </article>
@@ -200,13 +205,6 @@
                   <div class="g-plusone" data-annotation="inline" data-size="medium" data-width="120"></div>
                 </div>
               </div>
-            </div>
-          </div>
-        </li>
-        <li class="permalink"><a href="http://mattolson.com/blog/2013/01/21/hello-my-name-is-chico-and-i-have-a-drinking-problem.html" class="button secondary tiny radius">&infin;</a>
-          <div class="permalink_wrapper">
-            <div class="share_links">
-              <div><input type="text" value="http://mattolson.com/blog/2013/01/21/hello-my-name-is-chico-and-i-have-a-drinking-problem.html" class="short_url_text"></div>
             </div>
           </div>
         </li>
@@ -323,46 +321,35 @@
     timeout: 100,
     out: h
   });
-  function j() {
-    var r = $(this).parent().find(".share_links_wrapper");
-    var q = $(this).parent().find(".read-later_wrapper");
-    var t = $(this).parent().find(".permalink_wrapper");
+  function on_over_sharing() {
+    var share_links = $(this).parent().find(".share_links_wrapper");
+    var read_later = $(this).parent().find(".read-later_wrapper");
     if ($(this).find(".read-later_wrapper").length > 0) {
-      r.hide();
-      t.hide();
-      q.show();
+      share_links.hide();
+      read_later.show();
     }
     
-    if ($(this).find(".permalink_wrapper").length > 0) {
-      r.hide();
-      q.hide();
-      t.show();
-      t.find("input").focus();
-    }
-      
     if ($(this).find(".share_links_wrapper").length > 0) {
-      q.hide();
-      t.hide();
-      r.show();
+      read_later.hide();
+      share_links.show();
     }
   }
 
-  function h() {
+  function on_out_sharing() {
     $(this).find(".share_links_wrapper").hide();
     $(this).find(".read-later_wrapper").hide();
-    $(this).find(".permalink_wrapper").hide();
   }
   
-  $("li.share, li.permalink, li.read-later").hoverIntent({
+  $("li.share, li.read-later").hoverIntent({
     sensitivity: 1,
     interval: 0,
-    over: j,
+    over: on_over_sharing,
     timeout: 100,
-    out: h
+    out: on_out_sharing
   });
 
-  $("li.share a.button.tiny, li.permalink a.button.tiny, li.read-later a.button.tiny").on('click', function(e) {
-    j();
+  $("li.share a.button.tiny, li.read-later a.button.tiny").on('click', function(e) {
+    on_over_sharing();
     e.preventDefault();
   });
 

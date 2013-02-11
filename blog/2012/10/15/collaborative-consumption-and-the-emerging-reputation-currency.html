@@ -24,7 +24,7 @@
     <link rel="alternate" type="application/atom+xml" href="http://mattolson.com/blog/feed.xml" title="Atom feed for mattolson.com"/>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
 
-    <title>Collaborative Consumption and the Emerging Reputation Currency</title>
+    <title>Collaborative Consumption and the Emerging Reputation Currency&mdash;Captial Ideas</title>
 
     <link href="/stylesheets/application.css" media="screen" rel="stylesheet" type="text/css" />
     
@@ -110,13 +110,18 @@
 <p>One aspect of this new economy I&#8217;ve been thinking about lately is the crucial role that reputation and trustworthiness will play. One of the things <a href='http://www.omidyar.com/team/pierre-omidyar'>Pierre Omidyar</a>, the founder of eBay, was most proud of, was the fact that his company largely pioneered online trust and reputation by making its feedback and rating system a core part of the user experience. We might look back on it now as a relatively crude mechanism, but the implications were profound. Think about it: people started trusting random strangers around the world enough to send them goods through the mail before receiving payment, a fairly uncertain outcome at the time. The early eBay community was made up of trustworthy individuals that operated in an open, authentic way that engendered trust. Nowadays, eBay has lost the spirit that infused the early community, as it built features designed to please &#8220;power sellers&#8221;, essentially destroying the person-to-person authenticity and turning it into an automated impersonal experience. What we will need to grow the new sharing economy is a similar, but more comprehensive, measure of reputation that tells you at a glance if the person you are dealing with is trustworthy. This will likely be an aggregation of activity in various areas of your life, both online and offline&#8212;a kind of &#8220;karma score&#8221;. I&#8217;m keeping my eye on a company named <a href='http://legit.co/'>Legit</a> that&#8217;s working on just that.</p>
 
 <p>Chico is full of creative, talented people with a wide variety of skills. Our community values regional self sufficiency and has a spirit of kindness and generosity that we are rightly proud of. If you&#8217;re interested in this subject, or have ideas about how to further the sharing economy in Chico, or anywhere else for that matter, <a href='http://mattolson.com/contact'>send me an email</a>&#8212;I&#8217;d love to talk to you.</p>
-
-<p><em>This essay was printed in the October 15, 2012 issue of <a href='http://synthesisweekly.com/sharing-is-caring-collaborative-consumption-and-the-emerging-reputation-currency/'>The Synthesis</a>.</em></p>
     
 
     
 
     
+      
+        <p class="synthesis_comments panel radius">
+          This essay was printed in the Oct 15, 2012 issue of The Synthesis Weekly.
+          We&rsquo;d like to keep all public comments grouped together, so please 
+          <a target="_blank" href="http://synthesisweekly.com/sharing-is-caring-collaborative-consumption-and-the-emerging-reputation-currency/#comments">visit the Synthesis site to comment on this essay</a>.
+        </p>
+      
       <ul class="read_next">
         <li><a href="/blog/2012/10/01/what-is-that-loud-sucking-sound.html">&laquo; What is that loud sucking sound?</a></li>
         <li><a href="/blog/2012/11/05/the-dirty-kids.html">The Dirty Kids &raquo;</a></li>
@@ -168,13 +173,6 @@
                   <div class="g-plusone" data-annotation="inline" data-size="medium" data-width="120"></div>
                 </div>
               </div>
-            </div>
-          </div>
-        </li>
-        <li class="permalink"><a href="http://mattolson.com/blog/2012/10/15/collaborative-consumption-and-the-emerging-reputation-currency.html" class="button secondary tiny radius">&infin;</a>
-          <div class="permalink_wrapper">
-            <div class="share_links">
-              <div><input type="text" value="http://mattolson.com/blog/2012/10/15/collaborative-consumption-and-the-emerging-reputation-currency.html" class="short_url_text"></div>
             </div>
           </div>
         </li>
@@ -291,46 +289,35 @@
     timeout: 100,
     out: h
   });
-  function j() {
-    var r = $(this).parent().find(".share_links_wrapper");
-    var q = $(this).parent().find(".read-later_wrapper");
-    var t = $(this).parent().find(".permalink_wrapper");
+  function on_over_sharing() {
+    var share_links = $(this).parent().find(".share_links_wrapper");
+    var read_later = $(this).parent().find(".read-later_wrapper");
     if ($(this).find(".read-later_wrapper").length > 0) {
-      r.hide();
-      t.hide();
-      q.show();
+      share_links.hide();
+      read_later.show();
     }
     
-    if ($(this).find(".permalink_wrapper").length > 0) {
-      r.hide();
-      q.hide();
-      t.show();
-      t.find("input").focus();
-    }
-      
     if ($(this).find(".share_links_wrapper").length > 0) {
-      q.hide();
-      t.hide();
-      r.show();
+      read_later.hide();
+      share_links.show();
     }
   }
 
-  function h() {
+  function on_out_sharing() {
     $(this).find(".share_links_wrapper").hide();
     $(this).find(".read-later_wrapper").hide();
-    $(this).find(".permalink_wrapper").hide();
   }
   
-  $("li.share, li.permalink, li.read-later").hoverIntent({
+  $("li.share, li.read-later").hoverIntent({
     sensitivity: 1,
     interval: 0,
-    over: j,
+    over: on_over_sharing,
     timeout: 100,
-    out: h
+    out: on_out_sharing
   });
 
-  $("li.share a.button.tiny, li.permalink a.button.tiny, li.read-later a.button.tiny").on('click', function(e) {
-    j();
+  $("li.share a.button.tiny, li.read-later a.button.tiny").on('click', function(e) {
+    on_over_sharing();
     e.preventDefault();
   });
 
