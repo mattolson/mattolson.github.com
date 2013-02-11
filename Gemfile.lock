@@ -1,6 +1,7 @@
 GIT
-  remote: git://github.com/mattolson/foundation.git
-  revision: 7463f1609bea906a7060c45e2b3aa4911287ea24
+  remote: git://github.com/zurb/foundation.git
+  revision: 3a0fc1de9c15674da3bb783e2d3ab036e100438b
+  branch: master
   specs:
     zurb-foundation (3.2.5)
       compass (>= 0.12.2)
