@@ -7,3 +7,4 @@ gem "builder", "~> 3.0.0"
 gem "compass"
 gem "zurb-foundation", :github => 'zurb/foundation', :branch => 'master'  # until 3.2.6 is released
 gem "forgery"
+gem "sitemap_generator"

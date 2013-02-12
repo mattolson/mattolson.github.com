@@ -1,4 +1,5 @@
 require 'kramdown'
+require 'extensions/sitemap.rb'
 
 ###
 ## Blog settings
@@ -77,6 +78,9 @@ page "humans.txt", :layout => false
 #   end
 # end
 
+# Generate sitemap after build
+activate :sitemap_generator
+
 # Pretty urls
 activate :directory_indexes
 page "/404.html", :directory_index => false
@@ -105,3 +109,4 @@ configure :build do
   # Or use a different image path
   # set :http_path, "/Content/images/"
 end
+
