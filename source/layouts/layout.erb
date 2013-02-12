@@ -23,7 +23,7 @@
     <link rel="alternate" type="application/atom+xml" href="http://mattolson.com/blog/feed.xml" title="Atom feed for mattolson.com"/>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
 
-    <title><%= data.page.title ? "#{data.page.title}&mdash;Captial Ideas" : "Capital Ideas" %></title>
+    <title><%= data.page.title ? "#{data.page.title}&ndash;Captial Ideas" : "Capital Ideas" %></title>
 
     <%= stylesheet_link_tag "application" %>
     <%= yield_content :stylesheets %>
@@ -49,7 +49,7 @@
         <div class="twelve columns">
           <div class="intro_wrapper">
             <div class="intro">
-              <h1>Capital Ideas</h1>
+              <h1><%= link_to 'Capital Ideas', '/' %></h1>
               <h4>The thoughts of Matt Olson, a systems thinker, hacker, and social entrepreneur, on retooling consumer culture</h4>
             </div>
           </div>
@@ -74,7 +74,7 @@
               <!--
               <li><%= link_to 'Archive', '/blog/archive.html' %></li>
               -->
-              <li><%= link_to 'Subscribe', '/blog/feed.xml' %></li>
+              <li><%= link_to image_tag('fc-webicons/fc-webicon-rss-m.png'), '/blog/feed.xml', :class => 'icon_link' %></li>
             </ul>
         </section>
         </nav>
