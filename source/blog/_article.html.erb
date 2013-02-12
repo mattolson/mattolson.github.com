@@ -55,17 +55,32 @@
     <% end %>
 
     <% unless digest %>
-      <% if article.tags.include?('synthesis') %>
-        <p class="synthesis_comments panel radius">
-          This essay was printed in the <%= article.date.strftime('%b %e, %Y') %> issue of The Synthesis Weekly.
-          We&rsquo;d like to keep all public comments grouped together, so please 
-          <%= link_to 'visit the Synthesis site to comment on this essay', "#{article.data.mainurl}#comments", :class => 'external' %>.
-        </p>
-      <% end %>
       <ul class="read_next">
         <li><%= article.previous_article ? link_to("&laquo; #{article.previous_article.title}", article.previous_article) : "&nbsp;" %></li>
         <li><%= article.next_article ? link_to("#{article.next_article.title} &raquo;", article.next_article) : "&nbsp;" %></li>
       </ul>
+
+      <% if article.tags.include?('synthesis') %>
+        <div id="disqus_thread">
+          <p class="synthesis_comments panel radius">
+            This essay was printed in the <%= article.date.strftime('%b %e, %Y') %> issue of The Synthesis Weekly.
+            We&rsquo;d like to keep all public comments grouped together, so please 
+            <%= link_to 'visit the Synthesis site to comment on this essay', "#{article.data.mainurl}#comments", :class => 'external' %>.
+          </p>
+        </div>
+      <% else %>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+          var disqus_shortname = 'ahbiscuits';
+          (function() {
+           var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+           dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+           (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+           })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      <% end %>
     <% end %>
   </article>
   <aside class="three columns">
