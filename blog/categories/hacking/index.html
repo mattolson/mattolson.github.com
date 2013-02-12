@@ -80,7 +80,12 @@
     <!-- Main page container -->
     <div class="row">
       <div class="twelve columns page">
-        <div class="articles">
+        <ul class="breadcrumbs">
+  <li><a href="/">Home</a></li>
+  <li class="current"><a href="/blog/categories/hacking/">hacking</a></li>
+</ul>
+
+<div class="articles">
   
     
     
@@ -117,48 +122,6 @@
         <li><a class="tiny button secondary round" href="/blog/categories/currency/">currency</a></li>
       
         <li><a class="tiny button secondary round" href="/blog/categories/bitcoin/">bitcoin</a></li>
-      
-    </ul>
-    
-  </aside>
-</div>
-
-  
-    
-      <hr />
-    
-    
-
-<div class="row">
-  <article class="nine columns">
-    <h3>
-      
-        <a href="/blog/2013/01/21/hello-my-name-is-chico-and-i-have-a-drinking-problem/">Hello, My Name is Chico, And I Have A Drinking Problem</a>
-      
-    </h3>
-
-    
-      <img alt='Chico Drinking' class='right plain' height='224' src='https://mattolson-blog.s3.amazonaws.com/hello-chico.png' width='300' />
-<p>Mason Sumnicht, a pledge to Sigma Pi at Chico State, died on November 15th after a night of heavy drinking at local bars. He was celebrating his 21st birthday by drinking 21 shots with the help of his fraternity brothers. His life ended with severe brain damage and 12 days of life support in the hospital. The tragedy of the loss of a young man with his whole life ahead of him cannot be overstated. Unfortunately, such a tragic event is not as uncommon in Chico as it should be. This was the fourth alcohol-related student death in the fall semester&#8212;Shawn Summa, Brett Olson, and Carly Callaghan all lost their lives in the last four months.</p>
-
-<p>These are just a few of the highest profile cases in recent months, but the list goes on and on&#8212;drunk driving, hazings, sexual assaults, rapes, drownings, alcohol poisonings, stabbings&#8212;crimes related directly to the high rate of alcohol consumption by students and the community at large.</p>
-    
-
-    
-      <a class="secondary button radius" href="/blog/2013/01/21/hello-my-name-is-chico-and-i-have-a-drinking-problem/">Read more &rarr;</a>
-    
-
-    
-  </article>
-  <aside class="three columns">
-    <ul class="credit">
-      <li class="time">Posted on <time datetime="2013-01-21">Monday Jan 21, 2013</time</li>
-    </ul>
-    <ul class="tags">
-      
-        <li><a class="tiny button secondary round" href="/blog/categories/synthesis/">synthesis</a></li>
-      
-        <li><a class="tiny button secondary round" href="/blog/categories/chico/">chico</a></li>
       
     </ul>
     
@@ -308,48 +271,6 @@
   <article class="nine columns">
     <h3>
       
-        <a href="/blog/2012/11/05/the-dirty-kids/">The Dirty Kids</a>
-      
-    </h3>
-
-    
-      <img alt='Homeless' class='right' height='250' src='https://mattolson-blog.s3.amazonaws.com/homeless.jpg' width='250' />
-<p>The increasing size of the homeless population downtown has become a hot button political issue for Chico, and one that divides the candidates for the City Council election tomorrow. At the League of Women Voters forum on October 15th, I saw two very distinct points of view represented.</p>
-
-<p>The first was best illustrated by the comments of Sean Morgan, perhaps the most plain spoken conservative of the group advocating for new laws against objectionable behavior. In response to a question about what the city should do about the homeless &#8220;situation&#8221; downtown, Mr. Morgan replied, &#8220;My take is to give the police department the tools it needs&#8212;the misdemeanor vagrancy and panhandling laws they&#8217;ve asked the council for before and been denied. We have terrific resources for the disabled&#8212;the Jesus Center, the Torres Center, that help people get traction as long as they&#8217;re making progress, and they do a great job. To the others, I would like Chico to send a clear message, if you want to come to Chico to learn, add value and make progress, you&#8217;re welcome here, but if you&#8217;re here solely to party or bask endlessly in the generosity of our nonprofits, we ask that you move along.&#8221; That&#8217;s how you say &#8220;run &#8216;em out of town, boys&#8221; in 2012. The audience reacted with hushed gasps of shock on one side and beaming pride on the other.</p>
-    
-
-    
-      <a class="secondary button radius" href="/blog/2012/11/05/the-dirty-kids/">Read more &rarr;</a>
-    
-
-    
-  </article>
-  <aside class="three columns">
-    <ul class="credit">
-      <li class="time">Posted on <time datetime="2012-11-05">Monday Nov  5, 2012</time</li>
-    </ul>
-    <ul class="tags">
-      
-        <li><a class="tiny button secondary round" href="/blog/categories/synthesis/">synthesis</a></li>
-      
-        <li><a class="tiny button secondary round" href="/blog/categories/chico/">chico</a></li>
-      
-    </ul>
-    
-  </aside>
-</div>
-
-  
-    
-      <hr />
-    
-    
-
-<div class="row">
-  <article class="nine columns">
-    <h3>
-      
         <a href="/blog/2012/10/15/collaborative-consumption-and-the-emerging-reputation-currency/">Collaborative Consumption and the Emerging Reputation Currency</a>
       
     </h3>
@@ -433,14 +354,6 @@
   
 </div>
 
-<!--
-  
-
-  <p>Page 1 of 1</p>
-
-  
--->
-
       </div>
     </div>
 
@@ -513,68 +426,6 @@
         $("header.hero").backstretch("/images/hindelang.jpg");
         $('a.external').on('click', APP.onclick_external);
           function on_over_sharing() {
-    var share_links = $(this).parent().find(".share_links_wrapper");
-    var read_later = $(this).parent().find(".read-later_wrapper");
-    if ($(this).find(".read-later_wrapper").length > 0) {
-      share_links.hide();
-      read_later.show();
-    }
-    
-    if ($(this).find(".share_links_wrapper").length > 0) {
-      read_later.hide();
-      share_links.show();
-    }
-  }
-
-  function on_out_sharing() {
-    $(this).find(".share_links_wrapper").hide();
-    $(this).find(".read-later_wrapper").hide();
-  }
-  
-  $("li.share, li.read-later").hoverIntent({
-    sensitivity: 1,
-    interval: 0,
-    over: on_over_sharing,
-    timeout: 100,
-    out: on_out_sharing
-  });
-
-  $("li.share a.button.tiny, li.read-later a.button.tiny").on('click', function(e) {
-    on_over_sharing();
-    e.preventDefault();
-  });
-  function on_over_sharing() {
-    var share_links = $(this).parent().find(".share_links_wrapper");
-    var read_later = $(this).parent().find(".read-later_wrapper");
-    if ($(this).find(".read-later_wrapper").length > 0) {
-      share_links.hide();
-      read_later.show();
-    }
-    
-    if ($(this).find(".share_links_wrapper").length > 0) {
-      read_later.hide();
-      share_links.show();
-    }
-  }
-
-  function on_out_sharing() {
-    $(this).find(".share_links_wrapper").hide();
-    $(this).find(".read-later_wrapper").hide();
-  }
-  
-  $("li.share, li.read-later").hoverIntent({
-    sensitivity: 1,
-    interval: 0,
-    over: on_over_sharing,
-    timeout: 100,
-    out: on_out_sharing
-  });
-
-  $("li.share a.button.tiny, li.read-later a.button.tiny").on('click', function(e) {
-    on_over_sharing();
-    e.preventDefault();
-  });
-  function on_over_sharing() {
     var share_links = $(this).parent().find(".share_links_wrapper");
     var read_later = $(this).parent().find(".read-later_wrapper");
     if ($(this).find(".read-later_wrapper").length > 0) {
