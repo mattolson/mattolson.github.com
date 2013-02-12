@@ -46,11 +46,7 @@
           <div class="intro_wrapper">
             <div class="intro">
               <h1>Capital Ideas</h1>
-              <h4>
-                The thoughts of Matt Olson, a <a target="_blank" href="http://en.wikipedia.org/wiki/Systems_thinking">systems thinker</a>, 
-                <a target="_blank" href="http://en.wikipedia.org/wiki/Hacker_(programmer_subculture)">hacker</a> and
-                <a target="_blank" href="http://en.wikipedia.org/wiki/Social_entrepreneurship">social entrepreneur</a>, on retooling consumer culture
-              </h4>
+              <h4>The thoughts of Matt Olson, a systems thinker, hacker, and social entrepreneur, on retooling consumer culture</h4>
             </div>
           </div>
         </div>
@@ -182,6 +178,7 @@
       $(document).ready(function () {
         imgSizer.collate();
         $("header.hero").backstretch("/images/hindelang.jpg");
+        $('a.external').on('click', APP.onclick_external);
           $('#contact_name').focus();
 
   // validate and submit the form

@@ -47,11 +47,7 @@
           <div class="intro_wrapper">
             <div class="intro">
               <h1>Capital Ideas</h1>
-              <h4>
-                The thoughts of Matt Olson, a <a target="_blank" href="http://en.wikipedia.org/wiki/Systems_thinking">systems thinker</a>, 
-                <a target="_blank" href="http://en.wikipedia.org/wiki/Hacker_(programmer_subculture)">hacker</a> and
-                <a target="_blank" href="http://en.wikipedia.org/wiki/Social_entrepreneurship">social entrepreneur</a>, on retooling consumer culture
-              </h4>
+              <h4>The thoughts of Matt Olson, a systems thinker, hacker, and social entrepreneur, on retooling consumer culture</h4>
             </div>
           </div>
         </div>
@@ -96,7 +92,7 @@
     </h3>
 
     
-      <img alt='image' class='right plain' height='224' src='https://mattolson-blog.s3.amazonaws.com/hello-chico.png' width='300' />
+      <img alt='Chico Drinking' class='right plain' height='224' src='https://mattolson-blog.s3.amazonaws.com/hello-chico.png' width='300' />
 <p>Mason Sumnicht, a pledge to Sigma Pi at Chico State, died on November 15th after a night of heavy drinking at local bars. He was celebrating his 21st birthday by drinking 21 shots with the help of his fraternity brothers. His life ended with severe brain damage and 12 days of life support in the hospital. The tragedy of the loss of a young man with his whole life ahead of him cannot be overstated. Unfortunately, such a tragic event is not as uncommon in Chico as it should be. This was the fourth alcohol-related student death in the fall semester&#8212;Shawn Summa, Brett Olson, and Carly Callaghan all lost their lives in the last four months.</p>
 
 <p>These are just a few of the highest profile cases in recent months, but the list goes on and on&#8212;drunk driving, hazings, sexual assaults, rapes, drownings, alcohol poisonings, stabbings&#8212;crimes related directly to the high rate of alcohol consumption by students and the community at large. </p>
@@ -155,7 +151,7 @@
         <p class="synthesis_comments panel radius">
           This essay was printed in the Jan 21, 2013 issue of The Synthesis Weekly.
           We&rsquo;d like to keep all public comments grouped together, so please 
-          <a target="_blank" href="http://synthesisweekly.com/hello-my-name-is-chico-and-i-have-a-drinking-problem/#comments">visit the Synthesis site to comment on this essay</a>.
+          <a class="external" href="http://synthesisweekly.com/hello-my-name-is-chico-and-i-have-a-drinking-problem/#comments">visit the Synthesis site to comment on this essay</a>.
         </p>
       
       <ul class="read_next">
@@ -284,6 +280,7 @@
       $(document).ready(function () {
         imgSizer.collate();
         $("header.hero").backstretch("/images/hindelang.jpg");
+        $('a.external').on('click', APP.onclick_external);
           function j() {
     var r = $(this).parent().find(".share_links_wrapper");
     var q = $(this).parent().find(".read-later_wrapper");

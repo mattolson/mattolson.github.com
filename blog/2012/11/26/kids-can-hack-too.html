@@ -47,11 +47,7 @@
           <div class="intro_wrapper">
             <div class="intro">
               <h1>Capital Ideas</h1>
-              <h4>
-                The thoughts of Matt Olson, a <a target="_blank" href="http://en.wikipedia.org/wiki/Systems_thinking">systems thinker</a>, 
-                <a target="_blank" href="http://en.wikipedia.org/wiki/Hacker_(programmer_subculture)">hacker</a> and
-                <a target="_blank" href="http://en.wikipedia.org/wiki/Social_entrepreneurship">social entrepreneur</a>, on retooling consumer culture
-              </h4>
+              <h4>The thoughts of Matt Olson, a systems thinker, hacker, and social entrepreneur, on retooling consumer culture</h4>
             </div>
           </div>
         </div>
@@ -96,7 +92,7 @@
     </h3>
 
     
-      <img alt='image' class='right' height='288' src='https://mattolson-blog.s3.amazonaws.com/mindstorms.png' width='250' />
+      <img alt='Mindstorms' class='right' height='288' src='https://mattolson-blog.s3.amazonaws.com/mindstorms.png' width='250' />
 <p>I&#8217;ve been blessed with two bright, young boys with inquisitive and capable brains. The oldest is reaching an age where he&#8217;s asking more questions about my work, and when I use terms like programming, software, algorithms, or languages, his curiosity is piqued, but when I tell him that I can make a computer do anything I want, he really perks up. &#8220;Can you make a computer that shoots lasers?&#8221; Why yes, yes I can. &#8220;Can you make your phone shoot lasers?&#8221; Probably, I say, noting the extremely impressed look on my son&#8217;s face. (The problem is, now he&#8217;s going to want a demonstration.) </p>
 
 <p>What is the best way to introduce your child to computer programming, to bring them to that first gratifying moment when you communicate with the machine and hold its power in your hands, when you realize that your creative power is only limited by your own imagination? It&#8217;s a heady moment, and then you&#8217;re hooked. For me, that didn&#8217;t come until college, but I want to expose my boys to this creative outlet much earlier, give them the tools and guidance and see what comes of it.</p>
@@ -115,7 +111,7 @@
         <p class="synthesis_comments panel radius">
           This essay was printed in the Nov 26, 2012 issue of The Synthesis Weekly.
           We&rsquo;d like to keep all public comments grouped together, so please 
-          <a target="_blank" href="http://synthesisweekly.com/#comments">visit the Synthesis site to comment on this essay</a>.
+          <a class="external" href="http://synthesisweekly.com/kids-can-hack-too/#comments">visit the Synthesis site to comment on this essay</a>.
         </p>
       
       <ul class="read_next">
@@ -246,6 +242,7 @@
       $(document).ready(function () {
         imgSizer.collate();
         $("header.hero").backstretch("/images/hindelang.jpg");
+        $('a.external').on('click', APP.onclick_external);
           function j() {
     var r = $(this).parent().find(".share_links_wrapper");
     var q = $(this).parent().find(".read-later_wrapper");

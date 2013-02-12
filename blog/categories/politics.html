@@ -46,11 +46,7 @@
           <div class="intro_wrapper">
             <div class="intro">
               <h1>Capital Ideas</h1>
-              <h4>
-                The thoughts of Matt Olson, a <a target="_blank" href="http://en.wikipedia.org/wiki/Systems_thinking">systems thinker</a>, 
-                <a target="_blank" href="http://en.wikipedia.org/wiki/Hacker_(programmer_subculture)">hacker</a> and
-                <a target="_blank" href="http://en.wikipedia.org/wiki/Social_entrepreneurship">social entrepreneur</a>, on retooling consumer culture
-              </h4>
+              <h4>The thoughts of Matt Olson, a systems thinker, hacker, and social entrepreneur, on retooling consumer culture</h4>
             </div>
           </div>
         </div>
@@ -104,7 +100,7 @@
 
     
       <h5 id='open_source_hardware_on_the_rise'>Open Source Hardware On The Rise</h5>
-<img alt='image' class='right' height='320' src='https://mattolson-blog.s3.amazonaws.com/limor_fried_sm.jpg' width='192' />
+<img alt='Limor Fried' class='right' height='320' src='https://mattolson-blog.s3.amazonaws.com/limor_fried_sm.jpg' width='192' />
 <p>Limor Fried, the fearless leader of the open source hardware movement, and an inspiration to makers and hackers worldwide, has been <a href='http://www.entrepreneur.com/article/225213'>named Entrepreneur of the Year</a> by <em>Entrepreneur</em> magazine, and I can&#8217;t think of a more appropriate recipient. Last year, her company Adafruit Industries sold $10 million worth of DIY open-source electronic hardware kits. With 200,000 customers, she has inspired a new movement of hackers and makers to treat circuits and electronics in the same way open-source software designers have been treating code for decades. Publishing your designs and encouraging others to use and improve upon them has proven to be a major force in the software world, and this same community effort has now come to the hardware world as well. I am part of a nascent maker community here in Chico that has been putting Adafruit products to use, collaborating freely and publishing our designs and source code for others to build on, and I believe this exciting trend is here to stay.</p>
     
 
@@ -206,6 +202,7 @@
       $(document).ready(function () {
         imgSizer.collate();
         $("header.hero").backstretch("/images/hindelang.jpg");
+        $('a.external').on('click', APP.onclick_external);
           function on_over_sharing() {
     var share_links = $(this).parent().find(".share_links_wrapper");
     var read_later = $(this).parent().find(".read-later_wrapper");

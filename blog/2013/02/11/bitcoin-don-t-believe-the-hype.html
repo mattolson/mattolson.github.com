@@ -47,11 +47,7 @@
           <div class="intro_wrapper">
             <div class="intro">
               <h1>Capital Ideas</h1>
-              <h4>
-                The thoughts of Matt Olson, a <a target="_blank" href="http://en.wikipedia.org/wiki/Systems_thinking">systems thinker</a>, 
-                <a target="_blank" href="http://en.wikipedia.org/wiki/Hacker_(programmer_subculture)">hacker</a> and
-                <a target="_blank" href="http://en.wikipedia.org/wiki/Social_entrepreneurship">social entrepreneur</a>, on retooling consumer culture
-              </h4>
+              <h4>The thoughts of Matt Olson, a systems thinker, hacker, and social entrepreneur, on retooling consumer culture</h4>
             </div>
           </div>
         </div>
@@ -96,7 +92,8 @@
     </h3>
 
     
-      <p>Bitcoin, the new decentralized digital currency that&#8217;s rapidly gaining popularity, was invented in 2008 by a mysterious hacker named Satoshi Nakamoto. He published the original paper describing the protocol, developed the initial implementation, and remained active on the mailing lists until mid-2010, but then vanished. He was presumed to be an individual from Japan, but nobody by that name actually exists, so many now assume Nakamoto is a pseudonym for an individual or group that wished to remain secret. So what did this mysterious person/group/ghost create, and why is it taking the world by storm? </p>
+      <img alt='Bitcoin' class='right plain' height='225' src='https://mattolson-blog.s3.amazonaws.com/bitcoin.png' width='225' />
+<p>Bitcoin, the new decentralized digital currency that&#8217;s rapidly gaining popularity, was invented in 2008 by a mysterious hacker named Satoshi Nakamoto. He published the original paper describing the protocol, developed the initial implementation, and remained active on the mailing lists until mid-2010, but then vanished. He was presumed to be an individual from Japan, but nobody by that name actually exists, so many now assume Nakamoto is a pseudonym for an individual or group that wished to remain secret. So what did this mysterious person/group/ghost create, and why is it taking the world by storm? </p>
 
 <p>Bitcoin is essentially a new form of money, purely digital and stored on your computer. It can be treated like cash, and payments in any denomination can be made securely and instantly around the world. It is managed and operated by a peer-to-peer network, so no central authorities or banks are involved in these transactions. It is anonymous, so you can buy and sell whatever you want without leaving a trace. This has led to its popularity on underground markets such as Silk Road, where bitcoins are used to buy drugs, weapons, stolen credit cards, assassination contracts, basically whatever you can think of. Because of this anonymity, bitcoin transactions are not generally reported to tax authorities, making them tax-free (at least for now). Transactions are secured by strong public-key cryptography, a very secure mechanism, although it does ultimately depend on the security of your individual computer. If someone hacks your computer, your bitcoins can be stolen, in the same way that someone can steal cash out of a safe if your house is not properly secured.</p>
 
@@ -118,7 +115,7 @@
         <p class="synthesis_comments panel radius">
           This essay was printed in the Feb 11, 2013 issue of The Synthesis Weekly.
           We&rsquo;d like to keep all public comments grouped together, so please 
-          <a target="_blank" href="http://synthesisweekly.com/bitcoin-dont-believe-the-hype/#comments">visit the Synthesis site to comment on this essay</a>.
+          <a class="external" href="http://synthesisweekly.com/bitcoin-dont-believe-the-hype/#comments">visit the Synthesis site to comment on this essay</a>.
         </p>
       
       <ul class="read_next">
@@ -251,6 +248,7 @@
       $(document).ready(function () {
         imgSizer.collate();
         $("header.hero").backstretch("/images/hindelang.jpg");
+        $('a.external').on('click', APP.onclick_external);
           function j() {
     var r = $(this).parent().find(".share_links_wrapper");
     var q = $(this).parent().find(".read-later_wrapper");

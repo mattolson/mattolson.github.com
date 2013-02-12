@@ -47,11 +47,7 @@
           <div class="intro_wrapper">
             <div class="intro">
               <h1>Capital Ideas</h1>
-              <h4>
-                The thoughts of Matt Olson, a <a target="_blank" href="http://en.wikipedia.org/wiki/Systems_thinking">systems thinker</a>, 
-                <a target="_blank" href="http://en.wikipedia.org/wiki/Hacker_(programmer_subculture)">hacker</a> and
-                <a target="_blank" href="http://en.wikipedia.org/wiki/Social_entrepreneurship">social entrepreneur</a>, on retooling consumer culture
-              </h4>
+              <h4>The thoughts of Matt Olson, a systems thinker, hacker, and social entrepreneur, on retooling consumer culture</h4>
             </div>
           </div>
         </div>
@@ -96,7 +92,7 @@
     </h3>
 
     
-      <img alt='image' class='right' height='250' src='https://mattolson-blog.s3.amazonaws.com/nabi.png' width='250' />
+      <img alt='Nabi' class='right' height='250' src='https://mattolson-blog.s3.amazonaws.com/nabi.png' width='250' />
 <p>When I asked my six-year-old what he hoped Santa would bring him for Christmas, he said &#8220;you know… It starts with an F… A phone!&#8221; When I informed him that he couldn&#8217;t have a phone until he was sixteen, he said &#8220;oh, well how about a computer?&#8221;</p>
 
 <p>I probably would have said the same thing if I were him, and he made the geek dad in me proud. Both the little mini-me&#8217;s are given supervised iPad time as a reward and they&#8217;ve grown quite fond of playing <em>Plants vs. Zombies</em> and <em>Temple Run</em> and watching Lego <em>Star Wars</em> stop motion animations or videos on <a href='https://www.youtube.com/watch?v=JdLCEwEFCMU'>how to be a ninja</a> or <a href='https://www.youtube.com/watch?v=FSijU52XJ7w'>how to fold origami</a> on YouTube. If I had that shit when I was six, I would want unrestricted access too. </p>
@@ -115,7 +111,7 @@
         <p class="synthesis_comments panel radius">
           This essay was printed in the Dec 10, 2012 issue of The Synthesis Weekly.
           We&rsquo;d like to keep all public comments grouped together, so please 
-          <a target="_blank" href="http://synthesisweekly.com/preparing-the-littles-for-the-internet/#comments">visit the Synthesis site to comment on this essay</a>.
+          <a class="external" href="http://synthesisweekly.com/preparing-the-littles-for-the-internet/#comments">visit the Synthesis site to comment on this essay</a>.
         </p>
       
       <ul class="read_next">
@@ -248,6 +244,7 @@
       $(document).ready(function () {
         imgSizer.collate();
         $("header.hero").backstretch("/images/hindelang.jpg");
+        $('a.external').on('click', APP.onclick_external);
           function j() {
     var r = $(this).parent().find(".share_links_wrapper");
     var q = $(this).parent().find(".read-later_wrapper");

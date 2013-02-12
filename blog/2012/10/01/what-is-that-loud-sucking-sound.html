@@ -47,11 +47,7 @@
           <div class="intro_wrapper">
             <div class="intro">
               <h1>Capital Ideas</h1>
-              <h4>
-                The thoughts of Matt Olson, a <a target="_blank" href="http://en.wikipedia.org/wiki/Systems_thinking">systems thinker</a>, 
-                <a target="_blank" href="http://en.wikipedia.org/wiki/Hacker_(programmer_subculture)">hacker</a> and
-                <a target="_blank" href="http://en.wikipedia.org/wiki/Social_entrepreneurship">social entrepreneur</a>, on retooling consumer culture
-              </h4>
+              <h4>The thoughts of Matt Olson, a systems thinker, hacker, and social entrepreneur, on retooling consumer culture</h4>
             </div>
           </div>
         </div>
@@ -96,7 +92,7 @@
     </h3>
 
     
-      <img alt='image' class='right' height='250' src='https://mattolson-blog.s3.amazonaws.com/dirty-cloud.jpg' width='250' />
+      <img alt='Dirty Cloud' class='right' height='250' src='https://mattolson-blog.s3.amazonaws.com/dirty-cloud.jpg' width='250' />
 <p><em>The New York Times</em> just ran a <a href='http://www.nytimes.com/2012/09/23/technology/data-centers-waste-vast-amounts-of-energy-belying-industry-image.html'>series on the destructive impact of cloud computing</a>. In it, they publish their findings on the energy consumption and environmental impact of the datacenters that work behind the scenes to power our favorite web and mobile apps, store our data with full redundancy and fault tolerance in perpetuity, and deliver our electronic communications.  Another way to phrase that: the datacenters that allow us to kill time stalking people on Facebook or playing Words With Friends, that store the world&#8217;s largest single collection of cat videos on YouTube and our collective stream of consciousness on Twitter, and that deliver all that spam to your inbox each morning and store those email attachments from 1999 that you&#8217;ll probably never look at again.</p>
 
 <p>OK, I&#8217;m really not that cynical. The web has permanently altered our reality&#8212;socially, economically, politically, educationally&#8212;for the better. It&#8217;s made us more connected, knowledgable, and empowered than ever. We can&#8217;t give up on that&#8212;if anything, we need to accelerate it. But the industry can&#8217;t operate in a vacuum. We need to be able to justify our clean image and operate in a socially and environmentally responsible manner.</p>
@@ -117,7 +113,7 @@
         <p class="synthesis_comments panel radius">
           This essay was printed in the Oct  1, 2012 issue of The Synthesis Weekly.
           We&rsquo;d like to keep all public comments grouped together, so please 
-          <a target="_blank" href="http://synthesisweekly.com/the-dirty-cloud/#comments">visit the Synthesis site to comment on this essay</a>.
+          <a class="external" href="http://synthesisweekly.com/the-dirty-cloud/#comments">visit the Synthesis site to comment on this essay</a>.
         </p>
       
       <ul class="read_next">
@@ -250,6 +246,7 @@
       $(document).ready(function () {
         imgSizer.collate();
         $("header.hero").backstretch("/images/hindelang.jpg");
+        $('a.external').on('click', APP.onclick_external);
           function j() {
     var r = $(this).parent().find(".share_links_wrapper");
     var q = $(this).parent().find(".read-later_wrapper");

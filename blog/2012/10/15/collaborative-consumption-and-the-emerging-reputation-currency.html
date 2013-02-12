@@ -47,11 +47,7 @@
           <div class="intro_wrapper">
             <div class="intro">
               <h1>Capital Ideas</h1>
-              <h4>
-                The thoughts of Matt Olson, a <a target="_blank" href="http://en.wikipedia.org/wiki/Systems_thinking">systems thinker</a>, 
-                <a target="_blank" href="http://en.wikipedia.org/wiki/Hacker_(programmer_subculture)">hacker</a> and
-                <a target="_blank" href="http://en.wikipedia.org/wiki/Social_entrepreneurship">social entrepreneur</a>, on retooling consumer culture
-              </h4>
+              <h4>The thoughts of Matt Olson, a systems thinker, hacker, and social entrepreneur, on retooling consumer culture</h4>
             </div>
           </div>
         </div>
@@ -96,7 +92,7 @@
     </h3>
 
     
-      <img alt='image' class='right' height='247' src='https://mattolson-blog.s3.amazonaws.com/collaborative-consumption.jpg' width='250' />
+      <img alt='Collaborative Consumption' class='right' height='247' src='https://mattolson-blog.s3.amazonaws.com/collaborative-consumption.jpg' width='250' />
 <p>One of the most exciting trends in the web startup world&#8212;for me, at least&#8212;is the growing number of companies in the so-called &#8220;collaborative consumption&#8221; space. These companies are using technology to reinvent market behaviors that are as old as human civilization itself&#8212;sharing, bartering, and trade.</p>
 
 <p>Let&#8217;s get specific: I&#8217;m talking about tools that let you share your car with your neighbors (<a href='http://www.getaround.com/'>Getaround</a>, <a href='http://www.zipcar.com/'>Zipcar</a>), tools from your garage (<a href='http://www.streetbank.com/'>Streetbank</a>), or your couch or guest bedroom with visitors from around the world (<a href='https://www.airbnb.com/'>Airbnb</a>, <a href='https://www.couchsurfing.org/'>Couchsurfing</a>); tools that let you raise support for your next venture directly from your customers (<a href='http://www.kickstarter.com/'>Kickstarter</a>, <a href='http://www.indiegogo.com/'>Indiegogo</a>); online markets for handmade or restored goods (<a href='http://www.etsy.com/'>Etsy</a>); tools that revolutionize education by enabling experts outside the university to teach courses online (<a href='http://www.skillshare.com/'>Skillshare</a>). </p>
@@ -119,7 +115,7 @@
         <p class="synthesis_comments panel radius">
           This essay was printed in the Oct 15, 2012 issue of The Synthesis Weekly.
           We&rsquo;d like to keep all public comments grouped together, so please 
-          <a target="_blank" href="http://synthesisweekly.com/sharing-is-caring-collaborative-consumption-and-the-emerging-reputation-currency/#comments">visit the Synthesis site to comment on this essay</a>.
+          <a class="external" href="http://synthesisweekly.com/sharing-is-caring-collaborative-consumption-and-the-emerging-reputation-currency/#comments">visit the Synthesis site to comment on this essay</a>.
         </p>
       
       <ul class="read_next">
@@ -252,6 +248,7 @@
       $(document).ready(function () {
         imgSizer.collate();
         $("header.hero").backstretch("/images/hindelang.jpg");
+        $('a.external').on('click', APP.onclick_external);
           function j() {
     var r = $(this).parent().find(".share_links_wrapper");
     var q = $(this).parent().find(".read-later_wrapper");

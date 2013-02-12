@@ -46,11 +46,7 @@
           <div class="intro_wrapper">
             <div class="intro">
               <h1>Capital Ideas</h1>
-              <h4>
-                The thoughts of Matt Olson, a <a target="_blank" href="http://en.wikipedia.org/wiki/Systems_thinking">systems thinker</a>, 
-                <a target="_blank" href="http://en.wikipedia.org/wiki/Hacker_(programmer_subculture)">hacker</a> and
-                <a target="_blank" href="http://en.wikipedia.org/wiki/Social_entrepreneurship">social entrepreneur</a>, on retooling consumer culture
-              </h4>
+              <h4>The thoughts of Matt Olson, a systems thinker, hacker, and social entrepreneur, on retooling consumer culture</h4>
             </div>
           </div>
         </div>
@@ -103,7 +99,7 @@
     </h3>
 
     
-      <img alt='image' class='right' height='250' src='https://mattolson-blog.s3.amazonaws.com/dirty-cloud.jpg' width='250' />
+      <img alt='Dirty Cloud' class='right' height='250' src='https://mattolson-blog.s3.amazonaws.com/dirty-cloud.jpg' width='250' />
 <p><em>The New York Times</em> just ran a <a href='http://www.nytimes.com/2012/09/23/technology/data-centers-waste-vast-amounts-of-energy-belying-industry-image.html'>series on the destructive impact of cloud computing</a>. In it, they publish their findings on the energy consumption and environmental impact of the datacenters that work behind the scenes to power our favorite web and mobile apps, store our data with full redundancy and fault tolerance in perpetuity, and deliver our electronic communications.</p>
     
 
@@ -205,6 +201,7 @@
       $(document).ready(function () {
         imgSizer.collate();
         $("header.hero").backstretch("/images/hindelang.jpg");
+        $('a.external').on('click', APP.onclick_external);
           function on_over_sharing() {
     var share_links = $(this).parent().find(".share_links_wrapper");
     var read_later = $(this).parent().find(".read-later_wrapper");
