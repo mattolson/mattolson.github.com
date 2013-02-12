@@ -1,3 +1,6 @@
+---
+title: About Matt Olson
+---
 <ul class="social_icons">
   <li><a class="fc-webicon github" href="https://github.com/mattolson">Github</a></li>
   <li><a class="fc-webicon linkedin" href="http://www.linkedin.com/in/mattolson">LinkedIn</a></li>
