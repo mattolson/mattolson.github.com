@@ -8,6 +8,8 @@ tags:
  - currency
  - bitcoin
 ---
+<img class="right plain" alt="Bitcoin" height="225" src="https://mattolson-blog.s3.amazonaws.com/bitcoin.png" width="225"/>
+
 Bitcoin, the new decentralized digital currency that&rsquo;s rapidly gaining popularity, was invented in 2008 by a mysterious hacker named Satoshi Nakamoto. 
 He published the original paper describing the protocol, developed the initial implementation, and remained active on the mailing lists until mid-2010, 
 but then vanished. He was presumed to be an individual from Japan, but nobody by that name actually exists, so many now assume Nakamoto is a pseudonym 

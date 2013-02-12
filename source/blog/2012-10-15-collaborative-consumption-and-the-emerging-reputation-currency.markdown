@@ -8,7 +8,7 @@ tags:
 - hacking
 - collaborative consumption
 ---
-<img class="right" alt="image" height="247" src="https://mattolson-blog.s3.amazonaws.com/collaborative-consumption.jpg" width="250"/>
+<img class="right" alt="Collaborative Consumption" height="247" src="https://mattolson-blog.s3.amazonaws.com/collaborative-consumption.jpg" width="250"/>
 
 One of the most exciting trends in the web startup world&mdash;for me, at least&mdash;is the growing number of companies in the so-called &ldquo;collaborative consumption&rdquo; space. These companies are 
 using technology to reinvent market behaviors that are as old as human civilization itself&mdash;sharing, bartering, and trade.

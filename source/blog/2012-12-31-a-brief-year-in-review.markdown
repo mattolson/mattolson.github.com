@@ -1,7 +1,7 @@
 ---
 date: 2012-12-31 17:56 -08:00
 title: A Brief Year In Review
-mainurl: http://synthesisweekly.com/
+mainurl: http://synthesisweekly.com/technology-year-in-review/
 tags:
 - synthesis
 - hacking
@@ -10,7 +10,7 @@ tags:
 ---
 ##### Open Source Hardware On The Rise
 
-<img class="right" alt="image" height="320" src="https://mattolson-blog.s3.amazonaws.com/limor_fried_sm.jpg" width="192"/>
+<img class="right" alt="Limor Fried" height="320" src="https://mattolson-blog.s3.amazonaws.com/limor_fried_sm.jpg" width="192"/>
 
 Limor Fried, the fearless leader of the open source hardware movement, and an inspiration to makers and hackers worldwide, has been [named Entrepreneur of the Year](http://www.entrepreneur.com/article/225213) 
 by _Entrepreneur_ magazine, and I can&rsquo;t think of a more appropriate recipient. Last year, her company Adafruit Industries sold $10 million worth of DIY open-source electronic hardware kits. 
@@ -26,7 +26,7 @@ Computer Science, and get kids hacking again. A vibrant, loyal community has for
 
 ##### 3D Printers Go Mainstream
 
-<img class="right" alt="image" height="193" src="https://mattolson-blog.s3.amazonaws.com/replicator2.png" width="200"/>
+<img class="right" alt="Replicator" height="193" src="https://mattolson-blog.s3.amazonaws.com/replicator2.png" width="200"/>
 
 3D printing is the process of manufacturing solid objects using a 3D computer model and a device that adds layers of material (usually plastic) until the model has taken shape in the real world. 
 This technology has been around for years, but 2012 is a turning point in refinement and accessibility. [Makerbot](http://www.makerbot.com/), a Brooklyn company, has released the 
@@ -44,7 +44,7 @@ Rather than relying solely on mass production, this technology makes decentraliz
 
 ##### Obama Wins With Help From Big Data
 
-<img class="right" alt="image" height="179" src="https://mattolson-blog.s3.amazonaws.com/bigdata.png" width="200"/>
+<img class="right" alt="Big Data" height="179" src="https://mattolson-blog.s3.amazonaws.com/bigdata.png" width="200"/>
 
 The Obama campaign was widely praised in 2008 for its innovative use of social media to attract a wider audience, especially young people. But 2012 will be remembered as the beginning of the era of 
 Big Data in presidential campaigns. Shortly after taking the job, Jim Messina, Obama&rsquo;s campaign director, said &ldquo;we are going to measure every single thing in this campaign.&rdquo; 

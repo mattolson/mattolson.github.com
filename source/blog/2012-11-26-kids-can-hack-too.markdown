@@ -1,13 +1,13 @@
 ---
 date: 2012-11-26 17:56 -08:00
 title: Kids Can Hack, Too
-mainurl: http://synthesisweekly.com/
+mainurl: http://synthesisweekly.com/kids-can-hack-too/
 tags:
 - synthesis
 - hacking
 - kids
 ---
-<img class="right" alt="image" height="288" src="https://mattolson-blog.s3.amazonaws.com/mindstorms.png" width="250"/>
+<img class="right" alt="Mindstorms" height="288" src="https://mattolson-blog.s3.amazonaws.com/mindstorms.png" width="250"/>
 
 I&rsquo;ve been blessed with two bright, young boys with inquisitive and capable brains. The oldest is reaching an age where he&rsquo;s asking more questions about my work, and when I use terms like 
 programming, software, algorithms, or languages, his curiosity is piqued, but when I tell him that I can make a computer do anything I want, he really perks up. &ldquo;Can you make a computer that 

@@ -28,6 +28,11 @@ a.fc-webicon, ul.breadcrumbs li a, a.close {
   border: none;
 }
 
+a.external {
+  background: image-url('external.png') 100% 50% no-repeat;
+  padding-right: 14px;
+}
+
 /* Web icons */
 ul.social_icons {
   list-style: none;

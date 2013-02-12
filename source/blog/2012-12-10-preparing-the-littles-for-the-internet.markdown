@@ -8,7 +8,7 @@ tags:
 - hardware
 - kids
 ---
-<img class="right" alt="image" height="250" src="https://mattolson-blog.s3.amazonaws.com/nabi.png" width="250"/>
+<img class="right" alt="Nabi" height="250" src="https://mattolson-blog.s3.amazonaws.com/nabi.png" width="250"/>
 
 When I asked my six-year-old what he hoped Santa would bring him for Christmas, he said &ldquo;you know… It starts with an F… A phone!&rdquo; When I informed him that he couldn&rsquo;t have a phone 
 until he was sixteen, he said &ldquo;oh, well how about a computer?&rdquo;

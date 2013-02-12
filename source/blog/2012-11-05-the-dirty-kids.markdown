@@ -6,7 +6,7 @@ tags:
 - synthesis
 - chico
 ---
-<img class="right" alt="image" height="250" src="https://mattolson-blog.s3.amazonaws.com/homeless.jpg" width="250"/>
+<img class="right" alt="Homeless" height="250" src="https://mattolson-blog.s3.amazonaws.com/homeless.jpg" width="250"/>
 
 The increasing size of the homeless population downtown has become a hot button political issue for Chico, and one that divides the candidates for the City Council election tomorrow. At the League of Women 
 Voters forum on October 15th, I saw two very distinct points of view represented.

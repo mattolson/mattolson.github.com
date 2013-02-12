@@ -6,7 +6,7 @@ tags:
 - synthesis
 - chico
 ---
-<img class="right plain" alt="image" height="224" src="https://mattolson-blog.s3.amazonaws.com/hello-chico.png" width="300"/>
+<img class="right plain" alt="Chico Drinking" height="224" src="https://mattolson-blog.s3.amazonaws.com/hello-chico.png" width="300"/>
 
 Mason Sumnicht, a pledge to Sigma Pi at Chico State, died on November 15th after a night of heavy drinking at local bars. He was celebrating his 21st birthday by drinking 21 shots with the help 
 of his fraternity brothers. His life ended with severe brain damage and 12 days of life support in the hospital. The tragedy of the loss of a young man with his whole life ahead of him cannot be 
