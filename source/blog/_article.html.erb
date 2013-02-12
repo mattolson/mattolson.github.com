@@ -51,7 +51,7 @@
     <% end %>
 
     <% if digest && article.summary.length < article.body.length %>
-      <%= link_to 'Read more &rarr;', article, :class => 'secondary button radius' %>
+      <%= link_to 'Read more &rarr;', "#{article.url}#content", :class => 'secondary button radius' %>
     <% end %>
 
     <% unless digest %>

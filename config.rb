@@ -77,6 +77,11 @@ page "humans.txt", :layout => false
 #   end
 # end
 
+# Pretty urls
+activate :directory_indexes
+page "/404.html", :directory_index => false
+
+# Asset dirs
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
