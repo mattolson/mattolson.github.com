@@ -1,0 +1,21 @@
+<% if paginate %>
+  <ul class="pagination">
+    <li class="arrow<%= prev_page.nil? ? ' unavailable' : '' %>"><%= link_to '&laquo; Newer posts', prev_page %></li>
+    <%
+      (1..num_pages).each do |i|
+        if i == page_number %>
+          <li class="current unavailable"><%= link_to "#{i}", '#' %></li>
+        <% else
+          p = nil
+          if i < page_number
+            (i...page_number).each do p = p ? p.metadata[:locals]['prev_page'] : prev_page; end
+          else
+            (page_number...i).each do p = p ? p.metadata[:locals]['next_page'] : next_page; end
+          end
+          %>
+          <li><%= link_to "#{i}", p && p.url %></li>
+        <% end %>
+      <% end %>
+    <li class="arrow<%= next_page.nil? ? ' unavailable' : '' %>"><%= link_to 'Older posts &raquo;', next_page %></li>
+  </ul>
+<% end %>

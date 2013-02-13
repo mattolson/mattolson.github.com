@@ -1,6 +1,5 @@
 ---
 pageable: true
-per_page: 12
 ---
 <ul class="breadcrumbs">
   <li><a href="/">Home</a></li>
@@ -15,3 +14,11 @@ per_page: 12
     <%= partial '/blog/article', :locals => {:article => article, :digest => true} %>
   <% end %>
 </div>
+
+<%= partial '/blog/pagination', :locals => {
+  :paginate => paginate, 
+  :next_page => next_page, 
+  :prev_page => prev_page,
+  :num_pages => num_pages,
+  :page_number => page_number
+} %>
