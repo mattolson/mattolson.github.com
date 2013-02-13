@@ -179,8 +179,28 @@
     <script type="text/javascript">
       $(document).ready(function () {
         imgSizer.collate();
+
         $("header.hero").backstretch("/images/hindelang.jpg");
+
         $('a.external').on('click', APP.onclick_external);
+
+        $("li.share, li.read-later").hoverIntent({
+          sensitivity: 1,
+          interval: 0,
+          over: APP.on_over_sharing,
+          timeout: 100,
+          out: APP.on_out_sharing
+        });
+
+        $("li.share a.button.tiny, li.read-later a.button.tiny").on('click', function(e) {
+          APP.on_over_sharing();
+          e.preventDefault();
+        });
+
+        $("ul.pagination li.unavailable a").on('click', function(e) {
+          e.preventDefault();
+        });
+
           $('#contact_name').focus();
 
   // validate and submit the form

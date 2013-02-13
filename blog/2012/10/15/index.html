@@ -88,17 +88,21 @@
   
 </h1>
 
-  <p>Page 1 of 1</p>
-
-  
-
 <ul>
   
     <li><a href="/blog/2012/10/15/collaborative-consumption-and-the-emerging-reputation-currency/">Collaborative Consumption and the Emerging Reputation Currency</a> <span>Oct 15</span></li>
   
 </ul>
 
-  
+  <ul class="pagination">
+    <li class="arrow unavailable"><a href="#">&laquo; Newer posts</a></li>
+    
+          <li class="current unavailable"><a href="#">1</a></li>
+        
+      
+    <li class="arrow unavailable"><a href="#">Older posts &raquo;</a></li>
+  </ul>
+
 
       </div>
     </div>
@@ -169,8 +173,28 @@
     <script type="text/javascript">
       $(document).ready(function () {
         imgSizer.collate();
+
         $("header.hero").backstretch("/images/hindelang.jpg");
+
         $('a.external').on('click', APP.onclick_external);
+
+        $("li.share, li.read-later").hoverIntent({
+          sensitivity: 1,
+          interval: 0,
+          over: APP.on_over_sharing,
+          timeout: 100,
+          out: APP.on_out_sharing
+        });
+
+        $("li.share a.button.tiny, li.read-later a.button.tiny").on('click', function(e) {
+          APP.on_over_sharing();
+          e.preventDefault();
+        });
+
+        $("ul.pagination li.unavailable a").on('click', function(e) {
+          e.preventDefault();
+        });
+
         
       });
 

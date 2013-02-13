@@ -91,7 +91,6 @@
   
     
     
-
 <div class="row">
   <article class="nine columns">
     <h3>
@@ -115,7 +114,7 @@
   </article>
   <aside class="three columns">
     <ul class="credit">
-      <li class="time">Posted on <time datetime="2013-01-21">Monday Jan 21, 2013</time</li>
+      <li class="time">Posted on <time datetime="2013-01-21">Monday Jan 21, 2013</time></li>
     </ul>
     <ul class="tags">
       
@@ -133,7 +132,6 @@
       <hr />
     
     
-
 <div class="row">
   <article class="nine columns">
     <h3>
@@ -157,7 +155,7 @@
   </article>
   <aside class="three columns">
     <ul class="credit">
-      <li class="time">Posted on <time datetime="2012-11-05">Monday Nov  5, 2012</time</li>
+      <li class="time">Posted on <time datetime="2012-11-05">Monday Nov  5, 2012</time></li>
     </ul>
     <ul class="tags">
       
@@ -172,6 +170,16 @@
 
   
 </div>
+
+  <ul class="pagination">
+    <li class="arrow unavailable"><a href="#">&laquo; Newer posts</a></li>
+    
+          <li class="current unavailable"><a href="#">1</a></li>
+        
+      
+    <li class="arrow unavailable"><a href="#">Older posts &raquo;</a></li>
+  </ul>
+
 
       </div>
     </div>
@@ -242,71 +250,29 @@
     <script type="text/javascript">
       $(document).ready(function () {
         imgSizer.collate();
+
         $("header.hero").backstretch("/images/hindelang.jpg");
+
         $('a.external').on('click', APP.onclick_external);
-          function on_over_sharing() {
-    var share_links = $(this).parent().find(".share_links_wrapper");
-    var read_later = $(this).parent().find(".read-later_wrapper");
-    if ($(this).find(".read-later_wrapper").length > 0) {
-      share_links.hide();
-      read_later.show();
-    }
-    
-    if ($(this).find(".share_links_wrapper").length > 0) {
-      read_later.hide();
-      share_links.show();
-    }
-  }
 
-  function on_out_sharing() {
-    $(this).find(".share_links_wrapper").hide();
-    $(this).find(".read-later_wrapper").hide();
-  }
-  
-  $("li.share, li.read-later").hoverIntent({
-    sensitivity: 1,
-    interval: 0,
-    over: on_over_sharing,
-    timeout: 100,
-    out: on_out_sharing
-  });
+        $("li.share, li.read-later").hoverIntent({
+          sensitivity: 1,
+          interval: 0,
+          over: APP.on_over_sharing,
+          timeout: 100,
+          out: APP.on_out_sharing
+        });
 
-  $("li.share a.button.tiny, li.read-later a.button.tiny").on('click', function(e) {
-    on_over_sharing();
-    e.preventDefault();
-  });
-  function on_over_sharing() {
-    var share_links = $(this).parent().find(".share_links_wrapper");
-    var read_later = $(this).parent().find(".read-later_wrapper");
-    if ($(this).find(".read-later_wrapper").length > 0) {
-      share_links.hide();
-      read_later.show();
-    }
-    
-    if ($(this).find(".share_links_wrapper").length > 0) {
-      read_later.hide();
-      share_links.show();
-    }
-  }
+        $("li.share a.button.tiny, li.read-later a.button.tiny").on('click', function(e) {
+          APP.on_over_sharing();
+          e.preventDefault();
+        });
 
-  function on_out_sharing() {
-    $(this).find(".share_links_wrapper").hide();
-    $(this).find(".read-later_wrapper").hide();
-  }
-  
-  $("li.share, li.read-later").hoverIntent({
-    sensitivity: 1,
-    interval: 0,
-    over: on_over_sharing,
-    timeout: 100,
-    out: on_out_sharing
-  });
+        $("ul.pagination li.unavailable a").on('click', function(e) {
+          e.preventDefault();
+        });
 
-  $("li.share a.button.tiny, li.read-later a.button.tiny").on('click', function(e) {
-    on_over_sharing();
-    e.preventDefault();
-  });
-
+        
       });
 
       // GoSquared
