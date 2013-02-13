@@ -1,4 +1,4 @@
-<% if paginate %>
+<% if paginate && num_pages > 1 %>
   <ul class="pagination">
     <li class="arrow<%= prev_page.nil? ? ' unavailable' : '' %>"><%= link_to '&laquo; Newer posts', prev_page %></li>
     <%
