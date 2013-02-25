@@ -5,6 +5,7 @@ mainurl: http://synthesisweekly.com/hello-my-name-is-chico-and-i-have-a-drinking
 tags:
 - synthesis
 - chico
+- alcohol
 ---
 <img class="right plain" alt="Chico Drinking" height="224" src="https://mattolson-blog.s3.amazonaws.com/hello-chico.png" width="300"/>
 
