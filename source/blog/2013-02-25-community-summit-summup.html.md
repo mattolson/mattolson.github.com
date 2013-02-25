@@ -7,10 +7,13 @@ tags:
 - chico
 - alcohol
 ---
+<img class="right" alt="Zingg engages frats" height="200" src="https://mattolson-blog.s3.amazonaws.com/zingg-frats.jpg" width="300"/>
+
 Four hundred people representing virtually every part of the Chico community attended a gathering on the Chico State campus last Friday to collaborate on actions we can take
 to change Chico&rsquo;s increasingly out-of-control drinking culture. Attendees ranged from the Chico State and Butte College student bodies, fraternities and sororities, parents 
 and University officials, to members of the Chico City Council, Chico Police and EMTs, to downtown bar owners, retail sellers of alcohol, apartment building owners, as well 
 as a healthy dose of average Chico community members like me.
+READMORE
 
 We were greeted with a seating arrangement of large, concentric ovals, immediately giving off a collaborative feel rather than a lecture hall. Paul Zingg, the President of 
 Chico State, set the tone by saying &ldquo;action without understanding has no meaning. Understanding without action has no consequence. We&rsquo;re talking about trying to understand 
