@@ -23,7 +23,7 @@ nothing to do with the image you might have of criminal activity, instead referr
 extending existing hardware and software.)
 READMORE
 
-### Chico&rsquo;s Makerspace
+#### Chico&rsquo;s Makerspace
 
 Idea Fab Labs has taken the makerspace concept one step further by offering a much wider range of modern tools than are traditionally available: an industrial laser cutter, 
 a CNC router, a 3D printer, textile and leatherworking equipment, a wood shop, and a metal shop, in addition to the standard microelectronics workshop. It is a digital 
@@ -59,7 +59,7 @@ be prohibitively expensive for most small businesses, but having it available on
 off of and troubleshoot problems, is a clear advantage. The lone inventor previously discouraged from testing out his/her designs because of high initial costs can now 
 begin a rapid prototyping cycle, perhaps using the result for fundraising.
 
-### The Art Gallery
+#### The Art Gallery
 
 The tools available at the lab are just that: tools. It is up to the individual how to use them. Artists have begun to discover these tools and are developing fascinating 
 new modes of expression. The lab wants to make these tools and the knowledge of how to use them available not just to left brain types, but righties as well, in an ongoing 
@@ -80,7 +80,7 @@ for Marc Fornes and THEVERYMANY, an impressive computational architecture projec
 The gallery opening for the Seied exhibit will be held on May 4th at Idea Fab Labs (603 Orange Street) from 3-6pm. Anyone interested in Seied&rsquo;s art or the lab itself is 
 welcome to drop in. Art will be available for purchase. Following the opening, the exhibit will be open to the public through June 1st.
 
-### Building a Tech Community
+#### Building a Tech Community
 
 Chico is a fun loving, community oriented town, a place where it&rsquo;s easy to build relationships, so it&rsquo;s only natural that our emerging tech community have a space that embodies that spirit.
 
