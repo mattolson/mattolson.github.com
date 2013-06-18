@@ -7,11 +7,10 @@ Location: Chico, CA, USA
 /* THANKS */
 Middleman: http://middlemanapp.com
 Middleman ZURB Template: https://github.com/mattolson/middleman-zurb-template
-ZURB: http://www.zurb.com/
+ZURB Foundation: http://foundation.zurb.com/
 Font Awesome: http://fortawesome.github.com/Font-Awesome
-FancyBox: http://fancybox.net/
 
 /* SITE */
 Standards: HTML5, CSS3
-Components: ZURB Foundation, jQuery, Font Awesome, FancyBox, Compass, respond.js, html5 shiv
+Components: ZURB Foundation, Zepto, Font Awesome
 
