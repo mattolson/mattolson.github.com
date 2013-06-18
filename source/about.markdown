@@ -9,19 +9,20 @@ title: About Matt Olson
   <li><a class="fc-webicon googleplus" href="https://plus.google.com/108115189098546127509/posts">Google+</a></li>
   <li><a class="fc-webicon quora" href="http://www.quora.com/Matt-Olson">Quora</a></li>
 </ul>
+
 ## Matt Olson
 
 <img class="right" src="/images/profile-large.jpg" width="250" height="375" />
 
-I&rsquo;m a [systems thinker](http://en.wikipedia.org/wiki/Systems_thinking), [hacker](http://en.wikipedia.org/wiki/Hacker_(programmer_subculture%29), and
-[social entrepreneur](http://en.wikipedia.org/wiki/Social_entrepreneurship) living in beautiful [Chico, CA](http://en.wikipedia.org/wiki/Chico,_California).
+I&rsquo;m a [systems thinker](http://en.wikipedia.org/wiki/Systems_thinking), [hacker](http://en.wikipedia.org/wiki/Hacker_%28programmer_subculture%29), and
+[social entrepreneur](http://en.wikipedia.org/wiki/Social_entrepreneurship) from Northern California.
 
 I&rsquo;m a software engineer by profession, and while I&rsquo;m excited by new technology and elegant hacks of all kinds, of particular interest to me is
 applying [social business](http://en.wikipedia.org/wiki/Social_business) to seemingly intractable problems, such as global warming, wealth inequality, 
 the clash between unsustainable growth and environmental stewardship, the deterioration of community and increased social alienation. These are outcomes
 of systemic design flaws&mdash;a system of our own creation that can be changed.
 
-I seek to help build, as [Buckminster Fuller](http://en.wikipedia.org/wiki/Buckminster_Fuller) put it:
+I am helping to build, as [Buckminster Fuller](http://en.wikipedia.org/wiki/Buckminster_Fuller) once put it:
 
 > a world that works for 100% of humanity,
 > in the shortest possible time,

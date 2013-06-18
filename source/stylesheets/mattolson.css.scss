@@ -1,4 +1,4 @@
-$heroHeight: 350px;
+$hero-height: 350px;
 
 /* Body */
 body {
@@ -6,17 +6,17 @@ body {
 }
 
 ::selection, ::-moz-selection {
-  background: $highlightColor;
+  background: $highlight-color;
 }
 
 /* Links */
 a { 
-  color: $txtColor;
-  border-bottom: 1px solid $highlightColor;
+  color: $body-font-color;
+  border-bottom: 1px solid $highlight-color;
 }
 
 a:hover {
-  color: $highlightColor;
+  color: $highlight-color;
   -webkit-transition: color 0.15s linear;
 }
 
@@ -49,7 +49,7 @@ ul.social_icons {
 
 /* Buttons */
 .button.secondary:hover {
-  background-color: $highlightColor;
+  background-color: $highlight-color;
 }
 
 /* Forms */
@@ -71,7 +71,7 @@ form {
 
 /* Top bar navigation */
 .top-bar {
-  font-family: $headerFontFamily;
+  font-family: $header-font-family;
 
   section {
     ul li a, ul li a:hover {
@@ -91,10 +91,6 @@ form {
       padding: 0 10px;
       color: #777;
     }
-
-    ul li a.icon_link {
-      padding-top: 8px;
-    }
   }
 }
 
@@ -105,20 +101,20 @@ div.page {
   padding: 20px;
   a#content {
     position: absolute;
-    top: -($topBarHeight);
+    top: -($topbar-height);
   }
 }
 
 /* Page header */
 header.hero {
-  height: $heroHeight;
+  height: $hero-height;
   color: #fff;
   overflow: hidden;
-  div.intro_wrapper { display: table; height: $heroHeight; }
+  div.intro_wrapper { display: table; height: $hero-height; }
   div.intro { display: table-cell; height: 100%; vertical-align: middle; }
-  h1 { color: $highlightColor; text-shadow: 1px 1px #333; }
+  h1 { color: $highlight-color; text-shadow: 1px 1px #333; }
   h4 { color: #fff; text-shadow: 1px 1px #333; line-height: 1.3; }
-  h1 a { color: $highlightColor; border-bottom: none; }
+  h1 a { color: $highlight-color; border-bottom: none; }
 }
 
 /* Footer */
@@ -204,127 +200,52 @@ ul.pagination {
 }
 
 aside {
-  li { 
-    font-size: 12px;
+  ul {
+    list-style: none;
+    li { 
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans serif;
+      color: #747474;
+    }
+  }
+
+  ul.credit {
+    font-size: emCalc(12px);
     font-weight: bold;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans serif;
-    color:#747474;
-  }
-}
-aside ul {
-  list-style: none;
-}
-
-aside ul.credit{
-  margin-top: 0px;
-}
-
-aside ul.credit time {
-  display: block;
-}
-
-aside ul.tags li {
-  display: inline;
-}
-
-.share-btns {
-  margin: 0;
-  float: left;
-}
-
-.read-later, .share {
-  display: block;
-  position: relative;
-  float: left;
-  margin: 10px 5px 0px 0px;
-}
-
-.share_links_wrapper, .read-later_wrapper {
-  display: none;
-  position: absolute;
-  top: 3px;
-  right: 0;
-  z-index: 100;
-}
-
-.share_links {
-  position: absolute;
-  z-index: 100;
-}
-
-.share_links_wrapper .share_links {
-  height: 103px;
-  width: 196px;
-  background:transparent url('/images/like-bg.png') 0 0 no-repeat;
-  top: 23px;
-  left: -150px;
-}
-
-.share_links a {
-  background-color: transparent !important;
-}
-
-.share_links .share-twitter {
-  position: absolute;
-  left: 21px;
-  top:20px;
-}
-
-.share_links .share-facebook {
-  position: absolute;
-  left: 106px;
-  top:20px;
-}
-
-.share_links .share-gplus {
-  position: absolute;
-  left: 21px;
-  top:55px;
-}
-
-.read-later_wrapper .share_links {
-  height: 76px;
-  width: 181px;
-  background:transparent url('/images/rl-bg.png') 0 0 no-repeat;
-  top:20px;
-  left: -90px;
-  color:#747474;
-}
-
-.read-later_wrapper .share_links div {
-  position: absolute;
-  top:8px;
-  left:12px;
-  p {
-    font-size: 12px;
-    text-align:center;
-    padding-top: 8px;
-    margin-bottom: 10px;
+    margin-top: 0px;
+    time {
+      display: block;
+    }
   }
 }
 
-.read-later_wrapper .share_links ul {
-  margin:-10px auto;
-  padding:0;
-  list-style:none;
+div.share-buttons {
+  margin-top: 2em;
+  li.share-twitter {
+    width: 107px;
+  }
+  li.share-facebook {
+    width: 90px;
+  }
+  li.share-gplus {
+    width: 90px;
+  }
 }
 
-.read-later_wrapper .share_links ul li {
-  float:left;
+h6.section {
+  font-size: emCalc(11px);
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid #d1d1d1;
+  margin-bottom: 0.7em;
 }
 
-.read-later_wrapper .share_links ul li:first-child:after{
-  content: "\2219";
-  /*  font-size:15px;*/
-  margin: 0 10px 0 10px;
+// Foundation fix can't get variables to work for some reason
+.top-bar-section ul li a:hover {
+  background-color: #fff;
 }
 
-.read-later_wrapper .share_links ul li a{
-  color:#d5391a;
-  font-weight:bold;
-}
-
-@media only screen and (max-width: $screenSmall - 1) {
+@media only screen and (max-width: $small-screen - 1) {
   aside.columns {
     margin-top: 1em;
     padding-left: 2em;
@@ -341,7 +262,7 @@ aside ul.tags li {
   }
 }
 
-@media only screen and (max-width: $screenXsmall - 1) {
+@media only screen and (max-width: $xsmall-screen - 1) {
   div.page {
     padding: 20px 7px;
   }

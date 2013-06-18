@@ -1,10 +1,11 @@
-source :rubygems
+source 'https://rubygems.org'
 
-gem "middleman", "~>3.0.11"
-gem "middleman-blog", "~> 3.1.1"
+gem "middleman", "~> 3.1.0"
+gem "middleman-blog", "~> 3.2.0"
 gem "kramdown"
 gem "builder", "~> 3.0.0"
-gem "compass"
-gem "zurb-foundation", :github => 'zurb/foundation', :branch => 'master'  # until 3.2.6 is released
+gem "zurb-foundation" , '~> 4.2.2', require: false
 gem "forgery"
 gem "sitemap_generator"
+gem "tzinfo"
+gem "nokogiri"

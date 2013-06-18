@@ -1,5 +1,8 @@
 require 'kramdown'
 require 'extensions/sitemap.rb'
+require 'zurb-foundation'
+
+activate :sprockets
 
 ###
 ## Blog settings
