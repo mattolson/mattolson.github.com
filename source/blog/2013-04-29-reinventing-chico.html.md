@@ -9,6 +9,9 @@ tags:
 - hardware
 - community
 ---
+
+<img class="right" alt="Fab Lab" height="200" src="https://mattolson-blog.s3.amazonaws.com/fablab.jpg" width="300"/>
+
 A group of makers has been quietly building a community space here in Chico with great potential for democratizing the tools of innovation and expression. 
 After months of planning and hard work, Idea Fab Labs, Chico&rsquo;s first makerspace, is opening its doors May 4th.
 
