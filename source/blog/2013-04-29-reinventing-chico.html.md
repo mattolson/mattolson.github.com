@@ -15,6 +15,7 @@ After months of planning and hard work, Idea Fab Labs, Chico&rsquo;s first maker
 Makerspaces&mdash;open, social spaces designed for brainstorming, collaborative learning, tool sharing, and most importantly, making things&mdash;have a long tradition 
 in technology communities around the world. They provide the space and both standard and high-tech tools, as well as the knowledge of how to use them, in a 
 collaborative, open environment where experimentation and peer-to-peer learning thrives.
+READMORE
 
 This technology-driven maker culture, both inside companies and outside of them, is responsible for many of the innovations we take for granted today. Steve Wozniak, 
 the original developer of the Apple computer, did most of his work on that seminal design to impress his friends at the Homebrew Computer Club, a Palo Alto based 
@@ -22,7 +23,6 @@ group of home electronics hobbyists. It is that enthusiastic spirit of open inno
 inspired the recent resurgence in makerspaces around the world. (Makerspaces are sometimes known as hackerspaces, although the term &ldquo;hacker&rdquo; in this context has 
 nothing to do with the image you might have of criminal activity, instead referring to the original meaning of the word: a spirit of tinkering, modifying, and 
 extending existing hardware and software.)
-READMORE
 
 #### Chico&rsquo;s Makerspace
 
