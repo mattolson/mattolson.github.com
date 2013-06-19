@@ -1219,7 +1219,7 @@ $topbar-bg: #f1f1f1 !default; //#e5e2da;
 // Height and margin
 
 // $topbar-height: 45px;
-$topbar-height: 50px;
+$topbar-height: 60px;
 // $topbar-margin-bottom: emCalc(30px);
 
 // Control Input height for top bar
@@ -1269,7 +1269,9 @@ $topbar-link-bg-hover: #333;
 // $topbar-menu-link-font-size: emCalc(13px);
 // $topbar-menu-link-weight: bold;
 // $topbar-menu-link-color: #fff;
+$topbar-menu-link-color: #333;
 // $topbar-menu-icon-color: #fff;
+$topbar-menu-icon-color: #333;
 // $topbar-menu-link-color-toggled: #888;
 // $topbar-menu-icon-color-toggled: #888;
 
@@ -1277,7 +1279,7 @@ $topbar-link-bg-hover: #333;
 
 // $topbar-transition-speed: 300ms;
 // $topbar-breakpoint: emCalc(940px); // Change to 9999px for always mobile layout
-$topbar-breakpoint: emCalc(400px);
+$topbar-breakpoint: emCalc(200px);
 // $topbar-media-query: "only screen and (min-width: #{$topbar-breakpoint})";
 
 // Divider Styles

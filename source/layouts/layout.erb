@@ -58,18 +58,20 @@
       <div class="contain-to-grid sticky">
         <nav class="top-bar">
           <ul class="title-area">
-            <li class="toggle-topbar menu-icon"><a href="#"></a></li>
+            <li class="name"></li>
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
           </ul>
           <section class="top-bar-section">
             <ul class="left">
               <li><%= link_to 'Home', '/' %></li>
+              <li class="divider"></li>
               <li><%= link_to 'About', '/about.html' %></li>
+              <li class="divider"></li>
+              <li><%= link_to 'Contact', '/contact.html' %></li>
+              <li class="divider"></li>
             </ul>
             <ul class="right">
-              <li><%= link_to 'Contact', '/contact.html' %></li>
-              <!--
-              <li><%= link_to 'Archive', '/blog/archive.html' %></li>
-              -->
+              <!-- <li><%= link_to 'Archive', '/blog/archive.html' %></li> -->
               <li><%= link_to image_tag('fc-webicons/fc-webicon-rss-m.png'), 'http://feeds.feedburner.com/mattolson/feed', :class => 'icon_link' %></li>
             </ul>
           </section>

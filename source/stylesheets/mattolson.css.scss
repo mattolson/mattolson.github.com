@@ -75,17 +75,13 @@ form {
 .top-bar {
   font-family: $header-font-family;
 
-  section {
-    ul li a, ul li a:hover {
-      border: none;
-    }
+  ul li a, ul li a:hover {
+    border: none;
+  }
 
+  section {
     ul > li a:not(.button) {
       padding: 0 15px;
-    }
-
-    ul li.name a {
-      padding-left: 0;
     }
 
     ul.right li a {
@@ -114,8 +110,8 @@ header.hero {
   overflow: hidden;
   div.intro_wrapper { display: table; height: $hero-height; }
   div.intro { display: table-cell; height: 100%; vertical-align: middle; }
-  h1 { color: $highlight-color; text-shadow: 1px 1px #333; }
-  h4 { color: #fff; text-shadow: 1px 1px #333; line-height: 1.3; }
+  h1 { color: $highlight-color; text-shadow: 1px 1px #333; font-size: 2.75em; }
+  h4 { color: #fff; text-shadow: 1px 1px #333; line-height: 1.3; font-size: 1.5em; }
   h1 a { color: $highlight-color; border-bottom: none; }
 }
 
@@ -267,5 +263,11 @@ h6.section {
 @media only screen and (max-width: $xsmall-screen - 1) {
   div.page {
     padding: 20px 7px;
+  }
+  img.right {
+    float: none !important;
+    display: block;
+    text-align: center;
+    margin: 0 auto 1em auto;
   }
 }
