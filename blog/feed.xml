@@ -5,10 +5,63 @@
   <id>http://mattolson.com/</id>
   <link href="http://mattolson.com/"/>
   <link href="http://mattolson.com/blog/feed.xml" rel="self"/>
-  <updated>2013-06-17T13:55:00Z</updated>
+  <updated>2013-07-01T14:44:00Z</updated>
   <author>
     <name>Matt Olson</name>
   </author>
+  <entry>
+    <title>The Innovation Within</title>
+    <link rel="alternate" href="http://mattolson.com/blog/2013/07/01/the-innovation-within/"/>
+    <id>/blog/2013/07/01/the-innovation-within/</id>
+    <published>2013-07-01T14:44:00Z</published>
+    <updated>2013-07-01T14:44:00Z</updated>
+    <author>
+      <name>Matt Olson</name>
+    </author>
+    <summary type="html">&lt;p&gt;&lt;img class="right" alt="No input detected" height="150" src="https://mattolson-blog.s3.amazonaws.com/no-input-detected.jpg" width="250" /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve been to a lot of technology networking events, so I thought I knew what to expect when I went to the Innovate North State Challenge on June 27th:
+Company A has a good idea but not the right team, Company B fails to differentiate itself in a crowded space, but Company C is disrupting a massive market, 
+has defensible IP, and is poised for growth!&lt;/p&gt;
+
+&lt;p&gt;I could go that route, but I think I’d be doing you a disservice to not tell you instead about what happened later, at the Sierra Nevada bar, when, while 
+enjoying an Ovila Abbey Saison (or three), I met a man that challenged my worldview in a profoundly depressing way.
+</summary>
+    <content type="html">&lt;p&gt;&lt;img class="right" alt="No input detected" height="150" src="https://mattolson-blog.s3.amazonaws.com/no-input-detected.jpg" width="250" /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve been to a lot of technology networking events, so I thought I knew what to expect when I went to the Innovate North State Challenge on June 27th:
+Company A has a good idea but not the right team, Company B fails to differentiate itself in a crowded space, but Company C is disrupting a massive market, 
+has defensible IP, and is poised for growth!&lt;/p&gt;
+
+&lt;p&gt;I could go that route, but I think I’d be doing you a disservice to not tell you instead about what happened later, at the Sierra Nevada bar, when, while 
+enjoying an Ovila Abbey Saison (or three), I met a man that challenged my worldview in a profoundly depressing way.
+&lt;/p&gt;
+
+&lt;p&gt;I told him why I was there, and how the numerous technical glitches with the AV equipment drove me to drink, but that there was one company that resonated 
+with me. When I told him it was a company that paired surplus farm produce that ordinarily would be composted with hungry individuals and hunger relief 
+agencies, he said “well it’s not really wasted, it goes into the soil, right? And besides, nobody in America is really hungry. There are tons of social 
+welfare programs and the poor people in this country are fat, not going hungry. Anybody who’s hungry in America wants to be hungry.” &lt;/p&gt;
+
+&lt;p&gt;I’ll let that sit with you for a second. While I have seen the propaganda that might lead someone to say something like that, it demonstrates a certain myopic 
+ignorance and failure of social intelligence for a wealthy physician to claim that the working poor are not going hungry in this country. The facts show that 
+over 50 million Americans, including almost 17 million children, do not have access to enough food. &lt;/p&gt;
+
+&lt;p&gt;While I could blame this one individual for his ignorance of the facts, these comments are merely the perfection of the capitalist libertarian ethic that is 
+in ascendance in recent years. It is a view that holds that poverty is an indication of inferiority, that anyone who is poor is either unintelligent or lazy 
+or both. That the poor are undeserving, that if they really wanted to improve their condition, there are plenty of opportunities and there are no obstacles to 
+social mobility. The ruthless application of this logic leads us to believe that the rich are simply smarter, faster, better, and the poor are losers who are 
+best served by a spotty patchwork of charity services, if at all.&lt;/p&gt;
+
+&lt;p&gt;For those of you that are not shocked and disgusted by this point of view, I have an alternative for you to consider. Perhaps your ego is inflated. Perhaps you 
+are unaware of your privilege. Perhaps the only difference between you and the kid in Mississippi (or Chico for that matter) that doesn’t have enough to eat is 
+a supportive family that told you over and over again that if you just work hard enough, one day you could be President, instead of telling you that you’ll 
+never amount to anything, and dragged you down when you tried to break away.&lt;/p&gt;
+
+&lt;p&gt;I have an Innovation Challenge for you. Challenge yourself to break free from preconceived notions about your fellow humans. Ask more. Repeat less. The innovation 
+we so deeply need in this country is within our own hearts.&lt;/p&gt;
+
+</content>
+  </entry>
   <entry>
     <title>Nothing To Hide?</title>
     <link rel="alternate" href="http://mattolson.com/blog/2013/06/17/nothing-to-hide/"/>
@@ -773,50 +826,6 @@ that’s working on just that.&lt;/p&gt;
 &lt;p&gt;Chico is full of creative, talented people with a wide variety of skills. Our community values regional self sufficiency and has a spirit of kindness and generosity that we are rightly proud of. If 
 you’re interested in this subject, or have ideas about how to further the sharing economy in Chico, or anywhere else for that matter, &lt;a href="http://mattolson.com/contact"&gt;send me an email&lt;/a&gt;—I’d 
 love to talk to you.&lt;/p&gt;
-
-</content>
-  </entry>
-  <entry>
-    <title>What is that loud sucking sound?</title>
-    <link rel="alternate" href="http://mattolson.com/blog/2012/10/01/what-is-that-loud-sucking-sound/"/>
-    <id>/blog/2012/10/01/what-is-that-loud-sucking-sound/</id>
-    <published>2012-10-01T20:58:00Z</published>
-    <updated>2012-10-01T20:58:00Z</updated>
-    <author>
-      <name>Matt Olson</name>
-    </author>
-    <summary type="html">&lt;p&gt;&lt;img class="right" alt="Dirty Cloud" height="250" src="https://mattolson-blog.s3.amazonaws.com/dirty-cloud.jpg" width="250" /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;The New York Times&lt;/em&gt; just ran a &lt;a href="http://www.nytimes.com/2012/09/23/technology/data-centers-waste-vast-amounts-of-energy-belying-industry-image.html"&gt;series on the destructive impact of cloud computing&lt;/a&gt;. 
-In it, they publish their findings on the energy consumption and environmental impact of the datacenters that work behind the scenes to power our favorite web and mobile apps, store our data with full 
-redundancy and fault tolerance in perpetuity, and deliver our electronic communications. </summary>
-    <content type="html">&lt;p&gt;&lt;img class="right" alt="Dirty Cloud" height="250" src="https://mattolson-blog.s3.amazonaws.com/dirty-cloud.jpg" width="250" /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;The New York Times&lt;/em&gt; just ran a &lt;a href="http://www.nytimes.com/2012/09/23/technology/data-centers-waste-vast-amounts-of-energy-belying-industry-image.html"&gt;series on the destructive impact of cloud computing&lt;/a&gt;. 
-In it, they publish their findings on the energy consumption and environmental impact of the datacenters that work behind the scenes to power our favorite web and mobile apps, store our data with full 
-redundancy and fault tolerance in perpetuity, and deliver our electronic communications.  Another way to phrase that: the datacenters that allow us to kill time stalking people on Facebook or playing 
-Words With Friends, that store the world’s largest single collection of cat videos on YouTube and our collective stream of consciousness on Twitter, and that deliver all that spam to your inbox 
-each morning and store those email attachments from 1999 that you’ll probably never look at again.&lt;/p&gt;
-
-&lt;p&gt;OK, I’m really not that cynical. The web has permanently altered our reality—socially, economically, politically, educationally—for the better. It’s made us more connected, 
-knowledgable, and empowered than ever. We can’t give up on that—if anything, we need to accelerate it. But the industry can’t operate in a vacuum. We need to be able to justify our
-clean image and operate in a socially and environmentally responsible manner.&lt;/p&gt;
-
-&lt;p&gt;About 90% of the 30 billion watts of electricity consumed by datacenters worldwide is a pure waste. That waste is equivalent to the output of 27 nuclear power plants—enough to power 20.5 million U.S. homes.
-That, to me, is staggering.&lt;/p&gt;
-
-&lt;p&gt;Where does that waste come from? Three places. First, comatose servers. &lt;em&gt;The New York Times&lt;/em&gt; study found that three quarters of the servers examined were comatose—not doing any useful computation. 
-They were old web apps that nobody really uses anymore but the owners aren’t quite ready to admit it, back office systems that are kept up and running out of fear because the engineers don’t 
-even remember what they are there for anymore, or extra servers that are waiting for a spike in traffic that may never materialize. Second, underutilization. Due to poor or outdated architectural choices, 
-more servers are commissioned than fully utilized. Third, poor datacenter planning, inadequate adoption of best practices for temperature management such as hot and cold rows. I have managed colocation 
-services for my clients in many different datacenters over the years, and I can attest to the fact that some do a much better job than others.&lt;/p&gt;
-
-&lt;p&gt;What can the industry do? First, understand your systems and consolidate wherever possible. Second, stop being a prima donna about bare metal performance and adopt virtualization. Adopt an agile, 
-elastic approach to server commission. Finally, know when to throw in the towel. Don’t keep your servers up and running just because it’s cheap and you may need it somewhere down the road. 
-Do you leave your lights on around the house when you’re not using them?&lt;/p&gt;
-
-&lt;p&gt;When it comes to powering servers, it doesn’t matter if that bit represents a cat video, porn, your Facebook photos, or important medical research data. Even free apps aren’t really free. 
-Somewhere out there in the “cloud”, there are thousands and thousands of servers humming away, making a loud sucking sound, draining the nation’s energy supply.&lt;/p&gt;
 
 </content>
   </entry>
