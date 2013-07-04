@@ -17,6 +17,7 @@ has defensible IP, and is poised for growth!
 
 I could go that route, but I think I&rsquo;d be doing you a disservice to not tell you instead about what happened later, at the Sierra Nevada bar, when, while 
 enjoying an Ovila Abbey Saison (or three), I met a man that challenged my worldview in a profoundly depressing way.
+READMORE
 
 I told him why I was there, and how the numerous technical glitches with the AV equipment drove me to drink, but that there was one company that resonated 
 with me. When I told him it was a company that paired surplus farm produce that ordinarily would be composted with hungry individuals and hunger relief 
