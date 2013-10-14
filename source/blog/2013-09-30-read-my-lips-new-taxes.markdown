@@ -1,5 +1,5 @@
 ---
-title: Read My Lips: New Taxes!
+title: "Read My Lips: New Taxes!"
 date: 2013-09-30 7:51 PDT
 mainurl: http://synthesisweekly.com/read-lips-new-taxes/
 tags:
@@ -9,9 +9,14 @@ tags:
 - taxes
 ---
 
+<a href="https://mattolson-blog.s3.amazonaws.com/tax-infographic.jpg"><img class="right" alt="With or without?" width="250" src="https://mattolson-blog.s3.amazonaws.com/tax-infographic.jpg" /></a>
+
 The Chico City Council has begun a series of excruciating budget cuts in response to deficits and long-term debt levels of immense proportions. 
 According to the new City Manager, Brian Nakamura, who was brought in last year to clean up our budget mess, &ldquo;this probably is the darkest 
-time for the city of Chico.&rdquo; Facing a $4.8M budget deficit and $24M in debt, the Council in June approved a new budget that laid off dozens 
+time for the city of Chico.&rdquo; 
+READMORE
+
+Facing a $4.8M budget deficit and $24M in debt, the Council in June approved a new budget that laid off dozens 
 of city employees including 19 positions in the police department, drastically cut capital improvement projects, reduced hours for park access and 
 cut park staff and facilities, put essential maintenance services on hold, forced rolling closures of fire stations, and generally engaged in a 
 full scale slash and burn operation.
@@ -44,7 +49,7 @@ need to make ongoing investments in common infrastructure to lay the groundwork 
 
 There is an another path we could choose, one that will allow us to restore essential services, increase public safety, and promote smart growth. 
 It&rsquo;s something that 142 cities and counties throughout the state, including many smaller than our own, have already done to shore up their 
-finances and provide the services their citizens demand: pass a local sales tax.
+finances and provide the services their citizens demand: **pass a local sales tax**.
 
 Currently, the state collects 7.5% on all purchases and distributes 1% back to the city or county where the sale was made. Chico collected about $17M 
 through sales taxes last year, about 40% of total revenue. With a modest half-cent sales tax increase, the city would collect an additional $8M per 
@@ -64,5 +69,5 @@ in our home once more. Here&rsquo;s how we get it done: call up your council mem
 2014 ballot for a local sales tax, and that you are willing to chip in to save our town. Tell them that if they won&rsquo;t do it, we will do it 
 ourselves by ballot initiative and vote them out of office.
 
-If you want to be a part of the solution, please visit [Together Chico](http://togetherchico.org) to learn more and take action.
+If you want to be a part of the solution, please visit [Together Chico](http://togetherchico.org/action) to learn more and take action.
 
