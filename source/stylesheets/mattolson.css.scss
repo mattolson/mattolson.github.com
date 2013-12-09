@@ -238,6 +238,10 @@ h6.section {
   margin-bottom: 0.7em;
 }
 
+.centered {
+  text-align: center;
+}
+
 // Foundation fix can't get variables to work for some reason
 .top-bar-section ul li a:hover {
   background-color: #fff;
