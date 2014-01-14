@@ -1,9 +1,7 @@
 ---
 date: 2012-11-26 17:56 -08:00
 title: Kids Can Hack, Too
-mainurl: http://synthesisweekly.com/kids-can-hack-too/
 tags:
-- synthesis
 - hacking
 - kids
 ---

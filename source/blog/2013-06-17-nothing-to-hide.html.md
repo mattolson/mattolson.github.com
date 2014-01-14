@@ -1,9 +1,7 @@
 ---
 title: Nothing To Hide?
 date: 2013-06-17 6:55 PDT
-mainurl: http://synthesisweekly.com/nothing-to-hide/
 tags:
-- synthesis
 - nsa
 - government
 - security

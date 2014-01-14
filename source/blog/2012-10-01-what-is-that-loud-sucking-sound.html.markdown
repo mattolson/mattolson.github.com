@@ -1,9 +1,7 @@
 ---
 title: What is that loud sucking sound?
 date: 2012-10-01 12:58 -08:00
-mainurl: http://synthesisweekly.com/the-dirty-cloud/
 tags:
-- synthesis
 - hacking
 - cloud
 - environment

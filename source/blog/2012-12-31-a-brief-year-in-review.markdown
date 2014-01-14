@@ -1,9 +1,7 @@
 ---
 date: 2012-12-31 17:56 -08:00
 title: A Brief Year In Review
-mainurl: http://synthesisweekly.com/technology-year-in-review/
 tags:
-- synthesis
 - hacking
 - hardware
 - politics

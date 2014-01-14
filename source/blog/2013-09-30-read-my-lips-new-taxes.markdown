@@ -1,9 +1,7 @@
 ---
 title: "Read My Lips: New Taxes!"
 date: 2013-09-30 7:51 PDT
-mainurl: http://synthesisweekly.com/read-lips-new-taxes/
 tags:
-- synthesis
 - chico
 - government
 - taxes

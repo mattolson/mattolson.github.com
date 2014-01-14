@@ -1,9 +1,7 @@
 ---
 date: 2012-10-15 17:56 -08:00
 title: Collaborative Consumption and the Emerging Reputation Currency
-mainurl: http://synthesisweekly.com/sharing-is-caring-collaborative-consumption-and-the-emerging-reputation-currency/
 tags:
-- synthesis
 - startups
 - hacking
 - collaborative consumption

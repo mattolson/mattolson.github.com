@@ -1,9 +1,7 @@
 ---
 title: Reinventing Chico
 date: 2013-04-29 07:03 -07:00
-mainurl: http://synthesisweekly.com/fab-lab/
 tags: 
-- synthesis
 - chico
 - hacking
 - hardware

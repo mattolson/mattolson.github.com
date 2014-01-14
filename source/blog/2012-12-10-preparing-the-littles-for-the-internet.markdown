@@ -1,9 +1,7 @@
 ---
 date: 2012-12-10 17:56 -08:00
 title: Preparing The Littles For The Internet
-mainurl: http://synthesisweekly.com/preparing-the-littles-for-the-internet/
 tags:
-- synthesis
 - hacking
 - hardware
 - kids

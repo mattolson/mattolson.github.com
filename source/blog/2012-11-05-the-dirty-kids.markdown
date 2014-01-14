@@ -1,10 +1,9 @@
 ---
 date: 2012-11-05 17:56 -08:00
 title: The Dirty Kids
-mainurl: http://synthesisweekly.com/love-em-or-make-em-leave/
 tags:
-- synthesis
 - chico
+- homeless
 ---
 <img class="right" alt="Homeless" height="250" src="https://mattolson-blog.s3.amazonaws.com/homeless.jpg" width="250"/>
 

@@ -1,9 +1,7 @@
 ---
 title: The Innovation Within
 date: 2013-07-01 7:44 PDT
-mainurl: http://synthesisweekly.com/the-innovation-within/
 tags:
-- synthesis
 - hacking
 - chico
 - worldview

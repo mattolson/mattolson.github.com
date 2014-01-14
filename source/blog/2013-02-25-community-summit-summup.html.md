@@ -1,9 +1,7 @@
 ---
 title: Community Summit Summup
 date: 2013-02-25 06:00 -08:00
-mainurl: http://synthesisweekly.com/community-summit-summup/
 tags:
-- synthesis
 - chico
 - alcohol
 ---

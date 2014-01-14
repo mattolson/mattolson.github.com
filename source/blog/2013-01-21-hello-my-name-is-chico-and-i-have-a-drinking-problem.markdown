@@ -1,9 +1,7 @@
 ---
 date: 2013-01-21 17:56 -08:00
 title: Hello, My Name is Chico, And I Have A Drinking Problem
-mainurl: http://synthesisweekly.com/hello-my-name-is-chico-and-i-have-a-drinking-problem/
 tags:
-- synthesis
 - chico
 - alcohol
 ---
