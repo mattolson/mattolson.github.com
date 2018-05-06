@@ -35,7 +35,7 @@ small groups can build new tools and deliver them to a significant share of the 
 coordinating action as never before.
   </div>
   <div class="small-4 columns centered">
-    <img class="th" src="/images/profile-large.jpg" width="250" height="375" />
+    <img class="th" src="/images/matt-olson.jpg" width="250" height="375" />
     <p class="centered"><a href="http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xC4333E456B005848">GPG Key</a></p>
   </div>
 </div>
