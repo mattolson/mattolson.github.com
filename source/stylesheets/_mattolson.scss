@@ -1,5 +1,4 @@
-@import "_foundation_settings";
-@import "compass/css3";
+@import "foundation_settings";
 $hero-height: 350px;
 
 /* Body */
@@ -129,15 +128,15 @@ footer {
 /* Images */
 img.right {
   border: 1px solid #ddd;
-  @include border-radius(3px);
-  @include box-shadow(#ddd 1px 1px 1px);
+  border-radius: 3px;
+  box-shadow: #ddd 1px 1px 1px;
   padding: 3px;
   text-align: right;
   margin-left: 1em;
   margin-bottom: 1em;
   &.plain {
     border: none;
-    @include box-shadow(#fff 0 0 0);
+    box-shadow: #fff 0 0 0;
   }
 }
 

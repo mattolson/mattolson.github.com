@@ -1,6 +1,7 @@
 require 'kramdown'
 require 'extensions/sitemap.rb'
 require 'zurb-foundation'
+require 'sass'
 
 activate :sprockets
 
@@ -57,15 +58,6 @@ page "humans.txt", :layout => false
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout
 #
-# A path which all have the same layout
-# with_layout :admin do
-#   page "/admin/*"
-# end
-
-# Proxy (fake) files
-# page "/this-page-has-no-template.html", :proxy => "/template-file.html" do
-#   @which_fake_page = "Rendering a fake page with a variable"
-# end
 
 ###
 # Helpers

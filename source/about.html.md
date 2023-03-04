@@ -6,8 +6,6 @@ title: About Matt Olson
     <li><a class="fc-webicon linkedin" href="http://www.linkedin.com/in/mattolson">LinkedIn</a></li>
     <li><a class="fc-webicon twitter" href="https://twitter.com/ahbiscuits">Twitter</a></li>
     <li><a class="fc-webicon facebook" href="https://www.facebook.com/mayreasonprevail">Facebook</a></li>
-    <li><a class="fc-webicon googleplus" href="https://plus.google.com/108115189098546127509/posts">Google+</a></li>
-    <li><a class="fc-webicon quora" href="http://www.quora.com/Matt-Olson">Quora</a></li>
   </ul>
 
 ## Matt Olson
@@ -39,5 +37,3 @@ coordinating action as never before.
     <p class="centered"><a href="http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xC4333E456B005848">GPG Key</a></p>
   </div>
 </div>
-
-

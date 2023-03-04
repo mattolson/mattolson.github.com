@@ -22,8 +22,8 @@
 
     <% unless digest %>
       <ul class="read_next">
-        <li><%= article.previous_article ? link_to("&laquo; #{article.previous_article.title}", article.previous_article) : "&nbsp;" %></li>
-        <li><%= article.next_article ? link_to("#{article.next_article.title} &raquo;", article.next_article) : "&nbsp;" %></li>
+        <li><%= article.article_previous ? link_to("&laquo; #{article.article_previous.title}", article.article_previous) : "&nbsp;" %></li>
+        <li><%= article.article_next ? link_to("#{article.article_next.title} &raquo;", article.article_next) : "&nbsp;" %></li>
       </ul>
 
       <div id="disqus_thread"></div>
